@@ -58,4 +58,5 @@ def normalize_csv(input_file, output_file):
 
 # Example usage
 normalize_csv("newworld_products.csv", "newworld_products.csv")
+normalize_csv("paknsave_products.csv", "paknsave_products.csv")
 normalize_csv("woolworths_products.csv", "woolworths_products.csv")
