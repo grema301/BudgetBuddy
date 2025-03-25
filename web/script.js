@@ -1,3 +1,19 @@
+document.getElementById('searchButton').addEventListener('click', searchProducts);
+
+function searchProducts() {
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    const productCards = document.querySelectorAll('.product-card');
+    
+    productCards.forEach(card => {
+        const productName = card.querySelector('.product-name').textContent.toLowerCase();
+        if (productName.includes(searchTerm)) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     fetch("merged_supermarket_data.json") // Update with actual JSON path
         .then(response => response.json())
