@@ -70,3 +70,27 @@ a {
     border-radius: 8px;
     margin-bottom: 10px;
 }
+
+.search-box {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#searchInput {
+    padding: 8px;
+    width: 300px;
+}
+
+#searchButton {
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid darkgreen; 
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+#searchButton:hover {
+    background-color: darkgreen; 
+}
