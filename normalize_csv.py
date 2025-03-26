@@ -8,6 +8,7 @@ def clean_name(name):
     name = re.sub(r'(\d+ml|\d+L)\.?$', '', name, flags=re.IGNORECASE)  # Remove trailing '500ml', '1L', etc.
     return name.strip()
 
+
 def clean_price(price):
     """Ensures price is in x.xx format by fixing multiple decimal points and removing non-numeric characters."""
     price = re.sub(r'[^\d.]', '', price)  # Keep only numbers and dots
@@ -23,8 +24,9 @@ def clean_price(price):
     
     return "0.00"  # Default if no valid number found
 
+
 def normalize_csv(input_file, output_file):
-    """Reads a CSV file, normalizes names and prices, and writes to a new file."""
+    """Reads a CSV file, normalizes names and prices, and writes to a new file with links included."""
     with open(input_file, mode='r', encoding='utf-8') as infile:
         reader = csv.reader(infile)
 
@@ -37,26 +39,27 @@ def normalize_csv(input_file, output_file):
         normalized_rows = []
 
         for row in reader:
-            if len(row) < 3:
+            if len(row) < 4:  # Ensure we have Name, Price, Image, and Link
                 continue  # Skip malformed rows
 
-            name, price, image = row
+            name, price, image, link = row
             name = clean_name(name)
             price = clean_price(price)
 
             if name and price:
-                normalized_rows.append([name, price, image])
+                normalized_rows.append([name, price, image, link])  # Keep all four columns
 
     if normalized_rows:
         with open(output_file, mode='w', newline='', encoding='utf-8') as outfile:
             writer = csv.writer(outfile)
-            writer.writerow(["Name", "Price", "Image URL"])
+            writer.writerow(["Name", "Price", "Image URL", "Website Link"])  # Updated headers
             writer.writerows(normalized_rows)
         print(f"Normalization complete. Data saved to {output_file}")
     else:
         print("No valid data to write after normalization.")
 
-# Example usage
+
+# Example usage (Ensures all supermarket CSVs are processed)
 normalize_csv("newworld_products.csv", "newworld_products.csv")
 normalize_csv("paknsave_products.csv", "paknsave_products.csv")
 normalize_csv("woolworths_products.csv", "woolworths_products.csv")

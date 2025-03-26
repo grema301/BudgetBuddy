@@ -11,9 +11,6 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 def clear_browser_data(driver):
     driver.get("chrome://settings/clearBrowserData")
-    time.sleep(2)  # Wait for settings page to load
-
-
     time.sleep(5)  # Wait for data to be cleared
 
 def scrape_page(driver, page_number):
@@ -50,8 +47,13 @@ def scrape_page(driver, page_number):
             price = f"{dollars}.{cents}"
         except:
             price = "N/A"
+            
+        try:
+            href = item.find_element(By.XPATH, ".//a").get_attribute("href")
+        except:
+            href = "N/A"
         
-        product_list.append([name, price, image])
+        product_list.append([name, price, image, href])
     
     return product_list
 
@@ -65,7 +67,7 @@ def scrape_supermarket():
     
     with open(filename, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
-        writer.writerow(["Name", "Price", "Image URL"])
+        writer.writerow(["Name", "Price", "Image URL", "Website Link"])
         
         for page in range(1, 21):
             print(f"Scraping page {page}...")

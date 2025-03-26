@@ -34,13 +34,18 @@ def scrape_page(driver, page_number):
             image = item.find_element(By.TAG_NAME, "img").get_attribute("src")
         except:
             image = "N/A"
+                
+        try:
+            href = item.find_element(By.XPATH, ".//a").get_attribute("href")
+        except:
+            href = "N/A"
         
-        product_list.append([name, price, image])
+        product_list.append([name, price, image, href])
     
     return product_list
 
 def scrape_supermarket():
-    filename = "supermarket_products.csv"
+    filename = "woolworths_products.csv"
     options = Options()
     options.add_argument("--start-maximized")
     options.add_argument("--disable-blink-features=AutomationControlled")
@@ -49,7 +54,7 @@ def scrape_supermarket():
     
     with open(filename, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
-        writer.writerow(["Name", "Price", "Image URL"])
+        writer.writerow(["Name", "Price", "Image URL", "Website Link"])
         
         for page in range(1, 21):
             print(f"Scraping page {page}...")

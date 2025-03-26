@@ -9,9 +9,9 @@ def merge_csvs(csv1, csv2, csv3, output_csv, output_json):
     df3 = pd.read_csv(csv3)
     
     # Standardize column names
-    df1.columns = ["Name", "Price_1", "Image_URL_1"]
-    df2.columns = ["Name", "Price_2", "Image_URL_2"]
-    df3.columns = ["Name", "Price_3", "Image_URL_3"]
+    df1.columns = ["Name", "Price_1", "Image_URL_1", "Website_Link_1"]
+    df2.columns = ["Name", "Price_2", "Image_URL_2", "Website_Link_2"]
+    df3.columns = ["Name", "Price_3", "Image_URL_3", "Website_Link_3"]
     
     # Helper function to match product names
     def match_names(name, choices):
@@ -36,12 +36,17 @@ def merge_csvs(csv1, csv2, csv3, output_csv, output_json):
             if pd.isna(image_url):
                 image_url = df3.loc[df3["Name"] == match3, "Image_URL_3"].values[0]
             
+            # Track website links for each item
+            link_1 = df1.loc[df1["Name"] == name, "Website_Link_1"].values[0]
+            link_2 = df2.loc[df2["Name"] == match2, "Website_Link_2"].values[0]
+            link_3 = df3.loc[df3["Name"] == match3, "Website_Link_3"].values[0]
+            
             merged_data.append({
                 "name": name,
                 "prices": {
-                    "New World": price_1,
-                    "Pak'nSave": price_2,
-                    "Woolworths": price_3
+                    "New World": {"price": price_1, "link": link_1},
+                    "Pak'nSave": {"price": price_2, "link": link_2},
+                    "Woolworths": {"price": price_3, "link": link_3}
                 },
                 "image_url": image_url
             })
