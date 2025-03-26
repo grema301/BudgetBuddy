@@ -1,7 +1,7 @@
-if exists drop table user;
-if exists drop table supermarket;
-if exists drop table product;
-if exists drop table category;
+drop table if exists User;
+drop table if exists Supermarket;
+drop table if exists Product;
+drop table if exists Category;
 
 
 create table User(
