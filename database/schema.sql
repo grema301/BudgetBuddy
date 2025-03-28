@@ -5,7 +5,7 @@ drop table if exists Category;
 
 
 create table User(
-    user_id smallint not null,
+    user_id INT not null AUTO_INCREMENT,
     first_name varchar(250) not null,
     last_name varchar(250) not null,
     password varchar(250) not null,
@@ -26,10 +26,10 @@ create table Category(
 );
 
 create table Product(
-    product_id smallint not null,
+    product_id INT not null AUTO_INCREMENT,
     category_name varchar(250) not null,
     name varchar(250) not null,
-    price smallint not null,
+    price DECIMAL(10,2) not null,
     image_url varchar(250) not null,
     supermarket_name varchar(250) not null,
     constraint product_pk primary key (product_id),
