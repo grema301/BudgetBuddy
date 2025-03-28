@@ -17,7 +17,7 @@ create table User(
 create table Supermarket(
     supermarket_name varchar(250) not null,
     address varchar(250) not null,
-    constriant supermarket_pk primary key (supermarket_name)
+    constraint supermarket_pk primary key (supermarket_name)
 );
 
 create table Category(
@@ -33,5 +33,5 @@ create table Product(
     image_url varchar(250) not null,
     supermarket_name varchar(250) not null,
     constraint product_pk primary key (product_id),
-    constraint product_fk foreign key (catgory_name) references Category(category_name)
+    constraint product_fk foreign key (category_name) references Category(category_name)
 );
