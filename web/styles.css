@@ -94,3 +94,17 @@ a {
 #searchButton:hover {
     background-color: darkgreen; 
 }
+
+#clearSearch {
+    padding: 8px 12px;
+    background-color: #f44336; /* Red color for visibility */
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#clearSearch:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}

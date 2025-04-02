@@ -1,3 +1,9 @@
+
+document.getElementById('clearSearch').addEventListener('click', () => {
+    document.getElementById('searchInput').value = '';
+    searchProducts(); 
+});
+
 document.getElementById("searchButton").addEventListener("click", searchProducts);
 
 function searchProducts() {
