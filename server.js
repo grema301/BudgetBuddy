@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'web')));
 const dbConfig = {
     host: 'localhost',
     user: 'root',
-    password: 'anotherNewPassword', 
+    password: '', 
     database: 'BudgetBuddy'
 };
 
