@@ -4,8 +4,8 @@ const fs = require("fs");
 // Database connection details
 const dbConfig = {
     host: "localhost",
-    user: "root", // Change if needed
-    password: "BudgetBuddy", // Change if you set a password
+    user: "root", 
+    password: "BudgetBuddy" , // Change if you set a password
     database: "BudgetBuddy",
 };
 
