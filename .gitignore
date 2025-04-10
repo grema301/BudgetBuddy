@@ -1,2 +1,1 @@
-./server.js
-./database/populate_db.js
+.env
