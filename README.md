@@ -21,7 +21,7 @@
    npm start
    ```
 #### Note
- - Currently in this iteration we cannot populate the database with the required information. We will need some data processing there to fill the attributes for out various entities. 
+ - Currently in this iteration we cannot populate the database with the required information. We will need some data processing there so we the attributes for out various entities can be filled. 
 
 
 ### Current application process
