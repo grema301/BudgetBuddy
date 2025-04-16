@@ -21,7 +21,7 @@
    npm run start
    ```
 #### Note
- - Currently in this iteration we cannot populate the database with the required information. We will need some data processing there so we the attributes for out various entities can be filled. 
+ - Database populated, no need for csv files.
 
 
 ### Current application process
