@@ -25,15 +25,12 @@ create table Category(
     constraint category_pk primary key (category_name)
 );
 
-
-
-create update table Product(
+create table Product(
     product_id INT not null AUTO_INCREMENT,
     category_name varchar(250),
-    product_name varchar(250) not null,
+    product_name varchar(250) not null unique,
     image_url varchar(250),
     description varchar(250),
-    -- constraint product_category_fk foreign key (category_name) references Category(category_name),
     constraint product_pk primary key (product_id)
 );
 
