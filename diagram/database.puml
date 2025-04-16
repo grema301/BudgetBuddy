@@ -34,4 +34,6 @@ entity Price as "Price"{
   * price : DECIMAL(10,2) <<NOT NULL>>
 }
 
-Price ||--o{} Supermarket : "sold at"
+Price ||--o{ Supermarket
+Price ||--o{ Product
+
