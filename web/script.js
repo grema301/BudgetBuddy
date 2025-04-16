@@ -17,19 +17,51 @@ function searchProducts() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("merged_supermarket_data.json")
+    console.log("Trying to fetch products...");
+    fetch("/products")
         .then((response) => response.json())
         .then((data) => displayProducts(data))
         .catch((error) => console.error("Error loading JSON:", error));
 });
 
-function displayProducts(products) {
+function displayProducts(data) {
     const productGrid = document.getElementById("product-grid");
     productGrid.innerHTML = "";
 
+    //Format the queried data to match the expected structure
+    // Group data by product_id
+    const grouped = {};
+
+    data.forEach((item) => {
+        const {
+            product_id,
+            product_name,
+            image_url,
+            supermarket_name,
+            price
+        } = item;
+
+        if (!grouped[product_id]) {
+            grouped[product_id] = {
+                name: product_name,
+                image_url: image_url,
+                prices: {}
+            };
+        }
+
+        grouped[product_id].prices[supermarket_name] = {
+            price: parseFloat(price)
+        };
+    });
+
+    // Convert grouped object back to array
+    const products = Object.values(grouped);
+    console.log(products);
+    console.log("Products after grouping:", products);
+
     products.forEach((product) => {
         const { name, prices, image_url } = product;
-
+        
         // Convert prices to numeric array, handling new JSON structure
         let priceArray = Object.values(prices)
             .map((storeData) => parseFloat(storeData.price))
@@ -46,13 +78,14 @@ function displayProducts(products) {
 
         let lowestPrice = Math.min(...filteredPrices);
 
+        console.log(filteredPrices);
         let priceDisplay = Object.entries(prices)
             .map(([store, storeData]) => {
                 let numericPrice = parseFloat(storeData.price);
                 if (!filteredPrices.includes(numericPrice)) return "";
                 return `<div class="price ${numericPrice === lowestPrice ? "lowest" : ""}">
-                            <a href="${storeData.link}" target="_blank">${store}: $${numericPrice.toFixed(2)}</a>
-                        </div>`;
+                    <p>${store}: $${numericPrice.toFixed(2)}</p>
+                </div>`;
             })
             .join("");
 
@@ -67,7 +100,6 @@ function displayProducts(products) {
         productCard.addEventListener("click", () => {
             window.location.href = `product.html?name=${encodeURIComponent(name)}`;
         });
-
         productGrid.appendChild(productCard);
     });
 }

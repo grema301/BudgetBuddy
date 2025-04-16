@@ -4,10 +4,12 @@ const mysql = require('mysql2/promise');
 const cors = require('cors');
 const path = require('path');
 
-console.log(path.join(__dirname, 'database', 'populate_db.js'));
 
-//const populateDatabase = require(path.join(__dirname, 'database', 'populate_db.js'));
+const populateDatabase = require(path.join(__dirname, 'database', 'populate_db.js'));
 
+populateDatabase()
+    .then(() => console.log("Database populated successfully!"))
+    .catch(err => console.error("Error populating database:", err));
 
 const app = express();
 app.use(cors());
@@ -21,37 +23,40 @@ const dbConfig = {
     port: process.env.DB_PORT
 };
 
-// Call populateDatabase manually if needed
-// (async () => {
-//     await populateDatabase();
-// })();
 
 // Fetch all products
 app.get('/products', async (req, res) => {
     const connection = await mysql.createConnection(dbConfig);
-    const [products] = await connection.execute("SELECT * FROM products");
+    const [products] = await connection.execute("select * from Product inner join Price on Product.product_id = Price.product_id");
     await connection.end();
+    console.log("Products fetched:", products.length);
     res.json(products);
 });
 
 // Fetch product details with prices
-app.get('/products/:name', async (req, res) => {
+app.get('*/products/:name', async (req, res) => {
     const { name } = req.params;
     const connection = await mysql.createConnection(dbConfig);
 
-    const [product] = await connection.execute("SELECT * FROM products WHERE name = ?", [name]);
-    if (product.length === 0) return res.status(404).json({ error: "Product not found" });
-
-    const [prices] = await connection.execute(`
-        SELECT stores.name as store, prices.price, prices.link 
-        FROM prices 
-        JOIN stores ON prices.store_id = stores.id 
-        WHERE prices.product_id = ?
-    `, [product[0].id]);
-
+    const [rows] = await connection.execute("select * from Product inner join Price on Product.product_id = Price.product_id where product_name = ?", [name]);
+    if (rows.length === 0) return res.status(404).json({ error: "Product not found" });
     await connection.end();
+    console.log("Product details fetched:", rows.length);
 
-    res.json({ ...product[0], prices });
+    //Restructure product data to match the expected format
+    const productData = {
+        name: rows[0].product_name,
+        image_url: rows[0].image_url,
+        prices: {}
+    };
+
+    rows.forEach(row => {
+        productData.prices[row.supermarket_name] = {
+            price: row.price,
+            // add link here if you want it
+        };
+    });
+    res.json({productData});
 });
 
 // Start server

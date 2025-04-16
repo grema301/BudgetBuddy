@@ -25,13 +25,23 @@ create table Category(
     constraint category_pk primary key (category_name)
 );
 
-create table Product(
+
+
+create update table Product(
     product_id INT not null AUTO_INCREMENT,
-    category_name varchar(250) not null,
-    name varchar(250) not null,
-    price DECIMAL(10,2) not null,
-    image_url varchar(250) not null,
-    supermarket_name varchar(250) not null,
-    constraint product_pk primary key (product_id),
-    constraint product_fk foreign key (category_name) references Category(category_name)
+    category_name varchar(250),
+    product_name varchar(250) not null,
+    image_url varchar(250),
+    description varchar(250),
+    -- constraint product_category_fk foreign key (category_name) references Category(category_name),
+    constraint product_pk primary key (product_id)
+);
+
+CREATE TABLE Price (
+    product_id INT NOT NULL,
+    supermarket_name varchar(250) NOT NULL,
+    price DECIMAL(10,2) NOT NULL,
+    PRIMARY KEY (product_id, supermarket_name),
+    FOREIGN KEY (product_id) REFERENCES Product(product_id),
+    FOREIGN KEY (supermarket_name) REFERENCES Supermarket(supermarket_name)
 );

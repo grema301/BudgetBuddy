@@ -13,12 +13,10 @@ const dbConfig = {
 
 // Load JSON file
 const rawData = fs.readFileSync("merged_supermarket_data.json");
-console.log("Raw data", JSON.parse(rawData));
 const products = JSON.parse(rawData);
 
 // Function to insert data into the database
 async function populateDatabase() {
-    console.log("DB Config:", dbConfig);
     const connection = await mysql.createConnection(dbConfig);
     
     try {
@@ -31,23 +29,35 @@ async function populateDatabase() {
         // }
 
         // Insert supermarkets
-        const supermarkets = new Set();
-        products.forEach(product => {
-            Object.keys(product.prices).forEach(supermarket => {
-                supermarkets.add(supermarket);
-            });
-        });
+        // const supermarkets = new Set();
+        // products.forEach(product => {
+        //     Object.keys(product.prices).forEach(supermarket => {
+        //         console.log("Supermarket", supermarket);
+        //         supermarkets.add(supermarket);
+        //     });
+        // });
 
-        for (let supermarket of supermarkets) {
-            await connection.execute("INSERT IGNORE INTO Supermarket (supermarket_name, address) VALUES (?, ?)", [supermarket, "Unknown"]);
-        }
 
-        // Insert products
+        // Insert products and prices
+        // Loop through products and insert them into the database
         for (let product of products) {
-            for (let [supermarket, details] of Object.entries(product.prices)) {
+            // 1. Insert product (if not already in DB)
+            const [productResult] = await connection.execute(
+                "INSERT INTO Product (product_name, image_url) VALUES (?, ?)",
+                [product.name, product.image_url]
+            );
+        
+            // 2. Get inserted product_id (auto-increment value)
+            const productId = productResult.insertId;
+        
+            // 3. Loop through supermarkets for price info
+            for (let [supermarketName, details] of Object.entries(product.prices)) {
+        
+                // 4. Insert into Prices table
                 await connection.execute(
-                    "INSERT INTO Product (category_name, name, price, image_url, supermarket_name) VALUES (?, ?, ?, ?, ?)",
-                    [product.category, product.name, details.price, product.image_url, supermarket]
+                    `INSERT INTO Price (product_id, supermarket_name, price)
+                     VALUES (?, ?, ?)`,
+                    [productId, supermarketName, details.price]
                 );
             }
         }
@@ -60,5 +70,4 @@ async function populateDatabase() {
     }
 }
 
-// ✅ Export function instead of calling it
 module.exports = populateDatabase;

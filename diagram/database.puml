@@ -1,0 +1,37 @@
+entity User as "User"{
+  * user_id : INTEGER AUTO increment primary key <<UNIQUE>>
+  --
+  * first_name : VARCHAR(50) <<NOT NULL>>
+  * last_name : VARCHAR(50) <<NOT NULL>>
+  * password : VARCHAR(250) <<NOT NULL>>
+  * email_address : VARCHAR(250) <<UNIQUE>> <<NOT NULL>>
+  * home_address: TEXT <<NOT NULL>>
+} 
+
+entity Supermarket as "Supermarket"{
+  * supermarket_name : VARCHAR(250) primary key <<UNIQUE>> <<NOT NULL>>
+  --
+  * address : VARCHAR(50) <<NOT NULL>>
+} 
+
+' entity Category as "Category"{
+'   category_name : VARCHAR(50) primary key <<NOT NULL>>
+' }
+
+entity Product as "Product"{
+  * product_id : INTEGER AUTO increment primary key <<UNIQUE>>
+  --
+  * product_name : VARCHAR(50) <<NOT NULL>>
+  '  category_name : VARCHAR(50) <<NOT NULL>> <<FK>>
+  * image_url : VARCHAR(250) <<NOT NULL>>
+  description : TEXT 
+}
+
+entity Price as "Price"{
+  * product_id  : INTEGER <<FK>>
+  * supermarket_name : VARCHAR(250) <<FK>>
+  --
+  * price : DECIMAL(10,2) <<NOT NULL>>
+}
+
+Price ||--o{} Supermarket : "sold at"

@@ -1,0 +1,59 @@
+@startuml
+
+
+skinparam componentStyle rectangle
+skinparam defaultTextAlignment center
+skinparam linetype outline
+skinparam dpi 100
+skinparam node {
+  BackgroundColor #F5F5F5
+  BorderColor #000000
+  FontSize 14
+  FontColor #000000
+  PageMargin 10
+}
+skinparam shadowing false
+
+left to right direction
+
+actor User
+
+node "Client (Browser)" as Client{
+    component "Web Application\n(Frontend UI| HTML/CSS/JS)"
+    component "Product Table\n(External API)"
+    
+}
+
+node "Server" as Server {
+  component "Web Application\n(Backend Logic)"
+}
+
+
+database "Database" as Database{
+}
+
+node "Python Web Scraper" as Scrapper{
+  component "scraper.py"
+  note right of "scraper.py"
+    Runs weekly to update
+    Product Table from
+    external sources
+  end note
+}
+
+' User --> Client : "Accesses"
+' Client --> User : "Displays UI"
+
+' Client --> Server: "Sends HTTP Requests \n(REST API)"
+' Server --> Client: "Sends HTTP Responses \nData"
+
+' Server --> Database: "Queries / Updates \nDatabase tables"
+' Database --> Server: "Returns Data"
+
+' Scrapper -[#green]-> Database: "Updates\nProduct Table"
+' Database -[#green]-> Scrapper: "Returns true if successful"
+
+@enduml
+
+
+
