@@ -9,7 +9,7 @@ create or replace table User(
     first_name varchar(250) not null,
     last_name varchar(250) not null,
     password varchar(250) not null,
-    email_address varchar(250) not null,
+    email_address varchar(250) UNIQUE not null,
     home_address varchar(250),
     constraint user_pk primary key (user_id)
 );
