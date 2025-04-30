@@ -4,7 +4,7 @@ drop table if exists Product;
 drop table if exists Category;
 
 
-create or replace table User(
+create table User(
     user_id INT not null AUTO_INCREMENT,
     first_name varchar(250) not null,
     last_name varchar(250) not null,
@@ -14,18 +14,18 @@ create or replace table User(
     constraint user_pk primary key (user_id)
 );
 
-create or replace table Supermarket(
+create table Supermarket(
     supermarket_name varchar(250) not null,
     address varchar(250) not null,
     constraint supermarket_pk primary key (supermarket_name)
 );
 
-create or replace table Category(
+create table Category(
     category_name varchar(250) not null,
     constraint category_pk primary key (category_name)
 );
 
-create or replace table Product(
+create table Product(
     product_id INT not null AUTO_INCREMENT,
     category_name varchar(250),
     product_name varchar(250) not null unique,
@@ -34,7 +34,7 @@ create or replace table Product(
     constraint product_pk primary key (product_id)
 );
 
-CREATE or replace TABLE Price (
+CREATE TABLE Price (
     product_id INT NOT NULL,
     supermarket_name varchar(250) NOT NULL,
     price DECIMAL(10,2) NOT NULL,

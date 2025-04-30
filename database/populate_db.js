@@ -22,28 +22,30 @@ async function populateDatabase() {
     try {
         console.log("Connected to database");
 
-        // Insert categories
+        // Insert categories We need to implement this in the future *****
         // const categories = [...new Set(products.map(p => p.category))];
         // for (let category of categories) {
         //     await connection.execute("INSERT IGNORE INTO Category (category_name) VALUES (?)", [category]);
         // }
 
-        // Insert supermarkets
-        // const supermarkets = new Set();
-        // products.forEach(product => {
-        //     Object.keys(product.prices).forEach(supermarket => {
-        //         console.log("Supermarket", supermarket);
-        //         supermarkets.add(supermarket);
-        //     });
-        // });
+        //Insert supermarkets
+        const supermarkets = new Set();
+        products.forEach(product => { //get all the supermarkets from the products.
+            Object.keys(product.prices).forEach(supermarket => {
+                supermarkets.add(supermarket);
+            });
+        });
+        for(const store of supermarkets){
+            await connection.execute("INSERT IGNORE INTO supermarket (supermarket_name) VALUES (?)", [store]);
+        }
 
 
         // Insert products and prices
         // Loop through products and insert them into the database
-        for (let product of products) {
+        for (const product of products) {
             // 1. Insert product (if not already in DB)
             const [productResult] = await connection.execute(
-                "INSERT INTO Product (product_name, image_url) VALUES (?, ?)",
+                "INSERT IGNORE INTO Product (product_name, image_url) VALUES (?, ?)",
                 [product.name, product.image_url]
             );
         
@@ -51,18 +53,17 @@ async function populateDatabase() {
             const productId = productResult.insertId;
         
             // 3. Loop through supermarkets for price info
-            for (let [supermarketName, details] of Object.entries(product.prices)) {
-        
+            for (const [supermarketName, details] of Object.entries(product.prices)) {
+                //console.log(supermarketName, details);
                 // 4. Insert into Prices table
                 await connection.execute(
-                    `INSERT INTO Price (product_id, supermarket_name, price)
+                    `INSERT IGNORE INTO Price (product_id, supermarket_name, price)
                      VALUES (?, ?, ?)`,
                     [productId, supermarketName, details.price]
                 );
             }
         }
 
-        console.log("Database populated successfully!");
     } catch (error) {
         console.error("Error populating database:", error);
     } finally {
