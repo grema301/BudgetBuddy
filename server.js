@@ -3,6 +3,9 @@ const express = require('express');
 const mysql = require('mysql2/promise');
 const cors = require('cors');
 const path = require('path');
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
+
 
 
 const populateDatabase = require(path.join(__dirname, 'database', 'populate_db.js'));
@@ -13,7 +16,8 @@ populateDatabase()
 
 const app = express();
 app.use(cors());
-app.use(express.static(path.join(__dirname, 'web')));
+app.use(express.json());
+
 
 const dbConfig = {
     host: process.env.DB_HOST,
@@ -58,6 +62,8 @@ app.get('*/products/:name', async (req, res) => {
     });
     res.json({productData});
 });
+
+app.use(express.static(path.join(__dirname, 'web')));
 
 // Start server
 const PORT = process.env.PORT || 5000;
