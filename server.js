@@ -18,6 +18,16 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+//Rooutes using registration as default for people
+// Explicit routes for HTML files
+app.get('/', (req, res) => {
+    res.redirect('/register');
+});
+
+app.get('/register', (req, res) => {
+    res.sendFile(path.join(__dirname, 'web', 'register.html'));
+});
+
 
 const dbConfig = {
     host: process.env.DB_HOST,
@@ -26,6 +36,33 @@ const dbConfig = {
     database: process.env.DB_NAME,
     port: process.env.DB_PORT
 };
+
+
+app.post('/register', async (req, res) => {
+    try {
+        const { firstName, lastName, email, password } = req.body;
+        
+        // Hash password
+        const hashedPassword = await bcrypt.hash(password, saltRounds);
+        
+        const connection = await mysql.createConnection(dbConfig);
+        await connection.execute(
+            `INSERT INTO User 
+            (first_name, last_name, email_address, password) 
+            VALUES (?, ?, ?, ?)`,
+            [firstName, lastName, email, hashedPassword]
+        );
+        
+        res.status(201).json({ success: true });
+    } catch (error) {
+        console.error('Registration error:', error);
+        res.status(400).json({ 
+            error: error.code === 'ER_DUP_ENTRY' 
+                ? 'Email already in use' 
+                : 'Registration failed'
+            });
+        }
+    });
 
 
 // Fetch all products
@@ -66,5 +103,5 @@ app.get('*/products/:name', async (req, res) => {
 app.use(express.static(path.join(__dirname, 'web')));
 
 // Start server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
