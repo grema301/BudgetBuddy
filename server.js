@@ -28,6 +28,13 @@ app.get('/register', (req, res) => {
     res.sendFile(path.join(__dirname, 'web', 'register.html'));
 });
 
+app.get('/login', (req, res) => {
+    res.sendFile(path.join(__dirname, 'web', 'login.html'));
+});
+
+app.get('/index', (req, res) => {
+    res.sendFile(path.join(__dirname, 'web', 'index.html'));
+});
 
 const dbConfig = {
     host: process.env.DB_HOST,
@@ -63,6 +70,30 @@ app.post('/register', async (req, res) => {
             });
         }
     });
+
+    
+    app.post('/login', async (req, res) => {
+      try {
+            const connection = await mysql.createConnection(dbConfig);
+            const [users] = await connection.execute(
+                'SELECT * FROM User WHERE email_address = ?',
+                [req.body.email]
+            );
+            
+            if (users.length === 0 || !await bcrypt.compare(req.body.password, users[0].password)) {
+                return res.status(401).send('Invalid credentials');
+            }
+            
+            res.json({
+                userId: users[0].user_id,
+                name: `${users[0].first_name} ${users[0].last_name}`,
+                email: users[0].email_address
+            });
+        } catch (error) {
+            res.status(500).send('Login error');
+        }
+    });
+
 
 
 // Fetch all products
