@@ -95,7 +95,6 @@ app.post('/register', async (req, res) => {
     });
 
 
-
 // Fetch all products
 app.get('/products', async (req, res) => {
     const connection = await mysql.createConnection(dbConfig);
@@ -129,6 +128,46 @@ app.get('*/products/:name', async (req, res) => {
         };
     });
     res.json({productData});
+});
+
+app.post('/cart/prices', express.json(), async (req, res) => {
+    const items = req.body.items;
+
+    if (!Array.isArray(items) || items.length === 0) {
+        return res.json({});
+    }
+
+    const connection = await mysql.createConnection(dbConfig);
+    const totals = {};
+
+    for (const item of items) {
+        const [productRows] = await connection.execute(
+            "SELECT product_id FROM Product WHERE product_name = ?",
+            [item.name]
+        );
+
+        if (productRows.length === 0) continue;
+
+        const productId = productRows[0].product_id;
+        const quantity = Number(item.quantity) || 1;
+
+        const [priceRows] = await connection.execute(`
+            SELECT Price.supermarket_name, Price.price 
+            FROM Price 
+            WHERE Price.product_id = ?
+        `, [productId]);
+
+        priceRows.forEach(row => {
+            if (!totals[row.supermarket_name]) {
+                totals[row.supermarket_name] = 0;
+            }
+            totals[row.supermarket_name] += row.price * quantity;
+        });
+    }
+
+    await connection.end();
+    console.log("Cart totals returned:", totals);
+    res.json(totals);
 });
 
 app.use(express.static(path.join(__dirname, 'web')));

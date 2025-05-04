@@ -92,10 +92,18 @@ function displayProducts(data) {
         const productCard = document.createElement("div");
         productCard.classList.add("product-card");
         productCard.innerHTML = `
-            <img src="${image_url}" alt="${name}">
-            <div class="product-name">${name}</div>
-            ${priceDisplay}
-        `;
+        <img src="${image_url}" alt="${name}">
+        <div class="product-name">${name}</div>
+        ${priceDisplay}
+        <button class="add-to-cart">Add to Cart</button>
+    `;
+
+        // Stop card click if clicking the button
+        productCard.querySelector(".add-to-cart").addEventListener("click", (e) => {
+            e.stopPropagation(); // Prevent redirect
+            addToCart(name);
+        });
+
 
         productCard.addEventListener("click", () => {
             window.location.href = `product.html?name=${encodeURIComponent(name)}`;
@@ -103,3 +111,83 @@ function displayProducts(data) {
         productGrid.appendChild(productCard);
     });
 }
+
+
+let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+function saveCart() {
+  localStorage.setItem('cart', JSON.stringify(cart));
+  renderCart();
+}
+
+function addToCart(name) {
+  const existing = cart.find(item => item.name === name);
+  if (existing) {
+    existing.quantity += 1;
+  } else {
+    cart.push({ name, quantity: 1 });
+  }
+  saveCart();
+}
+
+function removeFromCart(name) {
+  cart = cart.filter(item => item.name !== name);
+  saveCart();
+}
+
+function updateQuantity(name, qty) {
+  const item = cart.find(i => i.name === name);
+  if (item) {
+    item.quantity = parseInt(qty);
+    if (item.quantity <= 0) removeFromCart(name);
+    else saveCart();
+  }
+}
+
+function renderCart() {
+  const cartItems = document.getElementById('cart-items');
+  const cartTotals = document.getElementById('cart-totals');
+  cartItems.innerHTML = '';
+
+  cart.forEach(item => {
+    const div = document.createElement('div');
+    div.className = 'cart-item';
+    div.innerHTML = `
+      <span>${item.name}</span>
+      <input type="number" value="${item.quantity}" onchange="updateQuantity('${item.name}', this.value)" />
+      <button onclick="removeFromCart('${item.name}')">✕</button>
+    `;
+    cartItems.appendChild(div);
+  });
+
+  if (cart.length === 0) {
+    cartTotals.innerHTML = 'Your cart is empty.';
+    return;
+  }
+
+  // Fetch total prices
+  fetch('/cart/prices', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ items: cart })
+  })
+  .then(res => res.json())
+  .then(totals => {
+    const minPrice = Math.min(...Object.values(totals));
+    cartTotals.innerHTML = Object.entries(totals).map(([store, total]) => {
+      const className = total === minPrice ? 'cheapest' : '';
+      return `<div class="${className}">${store}: $${total.toFixed(2)}</div>`;
+    }).join('');
+  });
+}
+
+// Toggle cart
+document.getElementById('cart-toggle').onclick = () => {
+  document.getElementById('cart').classList.toggle('open');
+};
+
+// On page load
+window.addEventListener('DOMContentLoaded', () => {
+  renderCart();
+});
+
