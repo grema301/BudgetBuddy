@@ -36,6 +36,7 @@ app.get('/index', (req, res) => {
     res.sendFile(path.join(__dirname, 'web', 'index.html'));
 });
 
+
 const dbConfig = {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
@@ -169,6 +170,11 @@ app.post('/cart/prices', express.json(), async (req, res) => {
     console.log("Cart totals returned:", totals);
     res.json(totals);
 });
+
+app.get('/cart', (req, res) => {
+    res.sendFile(path.join(__dirname, 'web', 'cart.html'));
+});
+
 
 app.use(express.static(path.join(__dirname, 'web')));
 
