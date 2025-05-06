@@ -17,21 +17,17 @@ function searchProducts() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("Trying to fetch products...");
     // Fetch the products from the backend
-    fetch("/products")  // Ensure this path matches your backend route
+    fetch("/api/products") 
         .then((response) => {
-            console.log("Response status:", response.status);  // Debug the status
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
-            return response.json();  // Parse the JSON response
+            return response.json();  
         })
         .then((data) => {
-            console.log("Fetched data:", data);
             if (data) {
                 displayProducts(data);  // Pass products to display function
-                console.log("Products loaded:", data[0]);
             } else {
                 console.error("No products found.");
             }
@@ -49,7 +45,6 @@ function displayProducts(data) {
     //Format the queried data to match the expected structure
     // Group data by product_id
     const grouped = {};
-    console.log("Data before grouping:", data);
     data.forEach((item) => {
         const {
             product_id,
@@ -74,8 +69,6 @@ function displayProducts(data) {
 
     // Convert grouped object back to array
     const products = Object.values(grouped);
-    console.log(products);
-    console.log("Products after grouping:", products);
 
     products.forEach((product) => {
         const { name, prices, image_url } = product;
@@ -96,7 +89,6 @@ function displayProducts(data) {
 
         let lowestPrice = Math.min(...filteredPrices);
 
-        console.log(filteredPrices);
         let priceDisplay = Object.entries(prices)
             .map(([store, storeData]) => {
                 let numericPrice = parseFloat(storeData.price);
@@ -116,8 +108,7 @@ function displayProducts(data) {
         `;
 
         productCard.addEventListener("click", () => {
-            window.location.href = `/products/${encodeURIComponent(name)}`;
-            console.log("Product clicked:", window.location.href);
+            window.location.href = `/product/${encodeURIComponent(name)}`;
         });
         productGrid.appendChild(productCard);
     });
