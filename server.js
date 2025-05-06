@@ -39,5 +39,15 @@ app.get("*", (req, res) => {
     res.status(404).send("404 Not Found");
 });
 
+app.get('/cart', (req, res) => {
+    res.sendFile(path.join(__dirname, 'web', 'cart.html'));
+});
+
+
+app.get('/cart', (req, res) => {
+    res.sendFile(path.join(__dirname, 'web', 'cart.html'));
+});
+
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
