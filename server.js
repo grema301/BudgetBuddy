@@ -3,6 +3,9 @@ const express = require('express');
 const cors = require('cors');
 const productRoutes = require('./api/product');
 const path = require('path');
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
+
 
 const app = express();
 app.use(cors());
