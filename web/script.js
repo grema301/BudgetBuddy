@@ -18,11 +18,29 @@ function searchProducts() {
 
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Trying to fetch products...");
-    fetch("/products")
-        .then((response) => response.json())
-        .then((data) => displayProducts(data))
-        .catch((error) => console.error("Error loading JSON:", error));
+    // Fetch the products from the backend
+    fetch("/products")  // Ensure this path matches your backend route
+        .then((response) => {
+            console.log("Response status:", response.status);  // Debug the status
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();  // Parse the JSON response
+        })
+        .then((data) => {
+            console.log("Fetched data:", data);
+            if (data) {
+                displayProducts(data);  // Pass products to display function
+                console.log("Products loaded:", data[0]);
+            } else {
+                console.error("No products found.");
+            }
+        })
+        .catch((error) => {
+            console.error("Error loading JSON:", error);  // Handle errors
+        });
 });
+
 
 function displayProducts(data) {
     const productGrid = document.getElementById("product-grid");
@@ -31,7 +49,7 @@ function displayProducts(data) {
     //Format the queried data to match the expected structure
     // Group data by product_id
     const grouped = {};
-
+    console.log("Data before grouping:", data);
     data.forEach((item) => {
         const {
             product_id,
@@ -98,7 +116,8 @@ function displayProducts(data) {
         `;
 
         productCard.addEventListener("click", () => {
-            window.location.href = `product.html?name=${encodeURIComponent(name)}`;
+            window.location.href = `/products/${encodeURIComponent(name)}`;
+            console.log("Product clicked:", window.location.href);
         });
         productGrid.appendChild(productCard);
     });

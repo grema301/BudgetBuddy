@@ -1,16 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
     const productName = urlParams.get("name");
+    
 
     if (!productName) {
         document.getElementById("product-container").innerHTML = "<p>Product not found.</p>";
         return;
     }
 
-    fetch(`/products/${encodeURIComponent(productName)}`)
+    fetch(`/products/${productName}`)
         .then((response) => response.json())
         .then((data) => {
-            const product = data.productData;
+            const product = data;
+            console.log("Product data:", product);
             if (!product) {
                 document.getElementById("product-container").innerHTML = "<p>Product not found.</p>";
                 return;
