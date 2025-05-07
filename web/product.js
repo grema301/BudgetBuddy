@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function displayProduct(product) {
     const { product_name, image_url, supermarkets } = product;
+    console.log("displaying product", product_name, supermarkets);
     let prices = supermarkets.map((store) => {
         return {
             name: store.name,
