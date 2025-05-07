@@ -191,3 +191,37 @@ window.addEventListener('DOMContentLoaded', () => {
   renderCart();
 });
 
+// Send cart to server to get AI suggestions
+document.getElementById('get-recipes-btn').addEventListener('click', () => {
+  fetch('/ai/suggest', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ cart })
+  })
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById('ai-output').innerHTML = `<p><strong>AI:</strong> ${data.response}</p>`;
+  })
+  .catch(err => console.error('Error with AI suggestion:', err));
+});
+
+// Handle chat replies
+document.getElementById('send-reply').addEventListener('click', () => {
+  const userInput = document.getElementById('user-reply').value;
+  if (!userInput) return;
+
+  document.getElementById('ai-output').innerHTML += `<p><strong>You:</strong> ${userInput}</p>`;
+  document.getElementById('user-reply').value = '';
+
+  fetch('/ai/chat', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message: userInput })
+  })
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById('ai-output').innerHTML += `<p><strong>AI:</strong> ${data.response}</p>`;
+  })
+  .catch(err => console.error('Error during chat:', err));
+});
+

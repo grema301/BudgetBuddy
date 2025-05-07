@@ -30,14 +30,21 @@
     <!-- Cart Toggle Button -->
     <div id="cart-toggle">🛒</div>
 
-    <!-- Cart Sidebar -->
-    <div id="cart">
+<!-- Cart Sidebar -->
+<div id="cart">
     <h2>Your Cart</h2>
     <div id="cart-items"></div>
     <div id="cart-totals"></div>
-    <button id="go-to-cart-page" onclick="window.location.href='/cart'">Go to Full Cart Page</button>
+    <div id="ai-recipe-assistant" class="ai-section">
+      <button id="get-recipes-btn">🍳 Suggest Recipes</button>
+      <div id="ai-output" class="chat-box"></div>
+      <div class="chat-input">
+        <input type="text" id="user-reply" placeholder="Ask a question..." />
+        <button id="send-reply">Send</button>
+      </div>
     </div>
-
+    <button id="go-to-cart-page" onclick="window.location.href='/cart'">Go to Full Cart Page</button>
+  </div>
     <main id="product-container"></main>
     <script src="product.js"></script>
 </body>
