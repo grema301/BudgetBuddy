@@ -189,69 +189,32 @@ a {
     background-color: #155ab6;
 }
 
-body {
-    font-family: sans-serif;
-    padding: 20px;
-    background: #f9f9f9;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 16px;
-    margin-top: 20px;
-  }
-  
-  .product-card {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
-  }
-  
-  .product-card img {
-    width: 100%;
-    max-height: 150px;
-    object-fit: contain;
-  }
-  
-  .qty-input {
-    width: 60px;
-    padding: 4px;
-    margin-top: 6px;
-  }
-  
-  .remove-btn {
-    margin-top: 10px;
-    background: crimson;
-    color: white;
-    border: none;
-    padding: 6px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .remove-btn:hover {
-    background: darkred;
-  }
-  
-  .totals-section {
-    margin-top: 30px;
-    background: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
-  }
-  
-  ul {
-    padding-left: 20px;
-  }
-  
+.ai-section {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.chat-box {
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+.chat-input {
+  display: flex;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 6px;
+}
+
+.chat-input button {
+  padding: 6px 10px;
+}
