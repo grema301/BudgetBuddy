@@ -7,10 +7,10 @@ async function insertSupermarket(name) {
 
 //Insert to Product and return product_id
 // If the product already exists, return the existing product_id
-async function insertProduct(name, imageUrl) {
+async function insertProduct(name, imageUrl, category) {
     const result = await sql`
-        INSERT INTO public."Product"(product_name, image_url)
-        VALUES (${name}, ${imageUrl})
+        INSERT INTO public."Product"(product_name, image_url, category_name)
+        VALUES (${name}, ${imageUrl}, ${category})
         ON CONFLICT (product_name) DO NOTHING
         RETURNING public."Product".product_id
     `;
@@ -22,6 +22,13 @@ async function insertProduct(name, imageUrl) {
     return existing[0].product_id;
 }
 
+async function updateProductCategory(name, category) {
+    const result = await sql`
+        UPDATE public."Product" SET category_name = ${category}
+        WHERE product_name = ${name}
+        RETURNING*;
+    `};
+
 async function insertPrice(productId, supermarket, price) {
     await sql`
         INSERT INTO public."Price" (product_id, supermarket_name, price)
@@ -29,5 +36,13 @@ async function insertPrice(productId, supermarket, price) {
         ON CONFLICT DO NOTHING
     `;
 }
+async function addToCategory(name){
+    const result = await sql`
+    INSERT INTO public."category"(category_name)
+    VALUES (${name})
+    ON CONFLICT DO NOTHING
+    RETURNING*;
+`;
+}
 
-module.exports = { insertSupermarket, insertProduct, insertPrice };
+module.exports = { insertSupermarket, insertProduct, insertPrice, updateProductCategory, addToCategory };

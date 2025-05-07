@@ -111,6 +111,7 @@ function displayProducts(data) {
         // Stop card click if clicking the button
         productCard.querySelector(".add-to-cart").addEventListener("click", (e) => {
             e.stopPropagation(); // Prevent redirect
+            console.log(name);
             addToCart(name);
         });
 
