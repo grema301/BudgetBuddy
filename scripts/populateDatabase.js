@@ -70,7 +70,7 @@ async function updateCategory(){
             await addToCategory(category);
             let result = await updateProductCategory(product.name, category); //add it if it exists
             if(result){
-                console.log("Category updated:", result[0].category_name);
+                console.log("Category updated:", result[0].category_name); // print out the updated category
             }
 
         }else{
