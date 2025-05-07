@@ -15,13 +15,10 @@ async function insertProduct(name, imageUrl) {
         RETURNING public."Product".product_id
     `;
 
-    console.log(result.length);
-    console.log(result + " result[0]");
     if (result.length > 0) return result[0].product_id;
    
     
     const existing = await sql`SELECT product_id FROM public."Product" WHERE product_name = ${name}`;
-    console.log(existing[0].product_id + " existing[0].product_id\n\n\n");
     return existing[0].product_id;
 }
 

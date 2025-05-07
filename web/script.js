@@ -116,7 +116,7 @@ function displayProducts(data) {
 
 
         productCard.addEventListener("click", () => {
-            window.location.href = `/product/${encodeURIComponent(name)}`;
+            window.location.href = `/product/${(name)}`;
         });
         productGrid.appendChild(productCard);
     });
