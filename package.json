@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@google/genai": "^0.13.0",
     "@openrouter/ai-sdk-provider": "^0.4.5",
     "ai": "^4.3.14",
     "bcrypt": "^5.1.1",

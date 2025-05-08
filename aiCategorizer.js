@@ -1,16 +1,18 @@
 const {openrouter} = require('@openrouter/ai-sdk-provider');
 const { generateText } = require('ai');
 require('dotenv').config()
+const { GoogleGenAI}   =  require("@google/genai");
 
 async function aiCat(name) {
   try{
+
+
     console.log("Sending request to OpenRouter API...");
-    const result = await generateText({
-      model: openrouter('qwen/qwen3-1.7b:free'),
-      messages: [
-        {
-          role: 'user',
-          content: `You are a grocery categorization engine. 
+
+    const ai = new GoogleGenAI({ apiKey: process.env.OPENROUTER_API_KEY });
+    const result = await ai.models.generateContent({
+      model: "gemini-2.0-flash",
+      contents: `You are a grocery categorization engine. 
     Classify the following product into the most relevant category from this list:
     
     - Produce
@@ -28,9 +30,34 @@ async function aiCat(name) {
     Product: ${name}
   
     Respond with the exact category only.`
-        }
-      ]
     });
+
+    // const result = await generateText({
+    //   model: openrouter('deepseek/deepseek-v3-base:free'),
+    //   messages: [
+    //     {
+    //       role: 'user',
+    //       content: `You are a grocery categorization engine. 
+    // Classify the following product into the most relevant category from this list:
+    
+    // - Produce
+    // - Dairy
+    // - Meat & Seafood
+    // - Pantry
+    // - Bakery
+    // - Beverages
+    // - Frozen
+    // - Household
+    // - Personal Care
+    // - Snacks
+    // - Other
+    
+    // Product: Chiken Breast
+  
+    // Respond with the exact category only.`
+    //     }
+    //   ]
+    // });
     
     console.log(result.text);
     if(result.text.length > 0){
