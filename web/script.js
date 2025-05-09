@@ -17,26 +17,12 @@ function searchProducts() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Fetch the products from the backend
-    fetch("/api/products") 
-        .then((response) => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();  
-        })
-        .then((data) => {
-            if (data) {
-                displayProducts(data);  // Pass products to display function
-            } else {
-                console.error("No products found.");
-            }
-        })
-        .catch((error) => {
-            console.error("Error loading JSON:", error);  // Handle errors
-        });
+    console.log("Trying to fetch products...");
+    fetch("/products")
+        .then((response) => response.json())
+        .then((data) => displayProducts(data))
+        .catch((error) => console.error("Error loading JSON:", error));
 });
-
 
 function displayProducts(data) {
     const productGrid = document.getElementById("product-grid");
@@ -45,6 +31,7 @@ function displayProducts(data) {
     //Format the queried data to match the expected structure
     // Group data by product_id
     const grouped = {};
+
     data.forEach((item) => {
         const {
             product_id,
@@ -69,6 +56,8 @@ function displayProducts(data) {
 
     // Convert grouped object back to array
     const products = Object.values(grouped);
+    console.log(products);
+    console.log("Products after grouping:", products);
 
     products.forEach((product) => {
         const { name, prices, image_url } = product;
@@ -89,6 +78,7 @@ function displayProducts(data) {
 
         let lowestPrice = Math.min(...filteredPrices);
 
+        console.log(filteredPrices);
         let priceDisplay = Object.entries(prices)
             .map(([store, storeData]) => {
                 let numericPrice = parseFloat(storeData.price);
