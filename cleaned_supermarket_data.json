@@ -1,0 +1,3674 @@
+[
+  {
+    "name": "Avocado",
+    "prices": {
+      "New World": {
+        "price": 2.99,
+        "link": "https://www.newworld.co.nz/shop/product/5028110_ea_000nw?name=-avocado"
+      },
+      "Pak'nSave": {
+        "price": 1.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5028110_ea_000pns?name=-avocado"
+      },
+      "Woolworths": {
+        "price": 3,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=354360&name=fresh-avocado-pre-ripened"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5028110.png?w=384"
+  },
+  {
+    "name": "Bananas",
+    "prices": {
+      "New World": {
+        "price": 3.69,
+        "link": "https://www.newworld.co.nz/shop/product/5046542_kgm_000nw?name=-bananas"
+      },
+      "Pak'nSave": {
+        "price": 3.19,
+        "link": "https://www.paknsave.co.nz/shop/product/5046542_kgm_000pns?name=-bananas"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046542.png?w=384"
+  },
+  {
+    "name": "Broccoli",
+    "prices": {
+      "New World": {
+        "price": 2.69,
+        "link": "https://www.newworld.co.nz/shop/product/5039956_ea_000nw?name=-broccoli"
+      },
+      "Pak'nSave": {
+        "price": 1.39,
+        "link": "https://www.paknsave.co.nz/shop/product/5039956_ea_000pns?name=-broccoli"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281082&name=fresh-vegetable-broccoli-head"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5039956.png?w=384"
+  },
+  {
+    "name": "Pams Pure Butter",
+    "prices": {
+      "New World": {
+        "price": 7.19,
+        "link": "https://www.newworld.co.nz/shop/product/5023660_ea_000nw?name=pams-pure-butter"
+      },
+      "Pak'nSave": {
+        "price": 6.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5023660_ea_000pns?name=pams-pure-butter"
+      },
+      "Woolworths": {
+        "price": 7.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=827847&name=woolworths-butter-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5023660.png?w=384"
+  },
+  {
+    "name": "Telegraph Cucumber",
+    "prices": {
+      "New World": {
+        "price": 3.49,
+        "link": "https://www.newworld.co.nz/shop/product/5028889_ea_000nw?name=-telegraph-cucumber"
+      },
+      "Pak'nSave": {
+        "price": 2.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5028889_ea_000pns?name=-telegraph-cucumber"
+      },
+      "Woolworths": {
+        "price": 2.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281455&name=fresh-vegetable-cucumbers-telegraph"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5028889.png?w=384"
+  },
+  {
+    "name": "Red Capsicum",
+    "prices": {
+      "New World": {
+        "price": 2.39,
+        "link": "https://www.newworld.co.nz/shop/product/5046503_ea_000nw?name=-red-capsicum"
+      },
+      "Pak'nSave": {
+        "price": 1.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5046503_ea_000pns?name=-red-capsicum"
+      },
+      "Woolworths": {
+        "price": 2.39,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281197&name=fresh-vegetable-capsicum-red"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046503.png?w=384"
+  },
+  {
+    "name": "Pams Value Lite Milk",
+    "prices": {
+      "New World": {
+        "price": 4.48,
+        "link": "https://www.newworld.co.nz/shop/product/5201487_ea_000nw?name=pams-value-lite-milk"
+      },
+      "Pak'nSave": {
+        "price": 4.4,
+        "link": "https://www.paknsave.co.nz/shop/product/5201487_ea_000pns?name=pams-value-lite-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5201487.png?w=384"
+  },
+  {
+    "name": "Pams Value White Toast Fresh Sliced Bread",
+    "prices": {
+      "New World": {
+        "price": 1.49,
+        "link": "https://www.newworld.co.nz/shop/product/5092911_ea_000nw?name=pams-value-white-toast-fresh-sliced-bread"
+      },
+      "Pak'nSave": {
+        "price": 1.39,
+        "link": "https://www.paknsave.co.nz/shop/product/5092911_ea_000pns?name=pams-value-white-toast-fresh-sliced-bread"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5092911.png?w=384"
+  },
+  {
+    "name": "Carrots",
+    "prices": {
+      "New World": {
+        "price": 2.99,
+        "link": "https://www.newworld.co.nz/shop/product/5039965_kgm_000nw?name=-carrots"
+      },
+      "Pak'nSave": {
+        "price": 1.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5039965_kgm_000pns?name=-carrots"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=135344&name=fresh-vegetable-carrots"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5039965.png?w=384"
+  },
+  {
+    "name": "Anchor Blue Milk",
+    "prices": {
+      "New World": {
+        "price": 5.44,
+        "link": "https://www.newworld.co.nz/shop/product/5000527_ea_000nw?name=anchor-blue-milk"
+      },
+      "Pak'nSave": {
+        "price": 5.34,
+        "link": "https://www.paknsave.co.nz/shop/product/5000527_ea_000pns?name=anchor-blue-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5000527.png?w=384"
+  },
+  {
+    "name": "Skinless Chicken Breast",
+    "prices": {
+      "New World": {
+        "price": 14.99,
+        "link": "https://www.newworld.co.nz/shop/product/5105651_kgm_000nw?name=-skinless-chicken-breast"
+      },
+      "Pak'nSave": {
+        "price": 13.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5105651_kgm_000pns?name=-skinless-chicken-breast"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5105651.png?w=384"
+  },
+  {
+    "name": "Pams Fresh Cream",
+    "prices": {
+      "New World": {
+        "price": 3.05,
+        "link": "https://www.newworld.co.nz/shop/product/5028852_ea_000nw?name=pams-fresh-cream"
+      },
+      "Pak'nSave": {
+        "price": 4.5,
+        "link": "https://www.paknsave.co.nz/shop/product/5040641_ea_000pns?name=pams-fresh-cream"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5028852.png?w=384"
+  },
+  {
+    "name": "New World Eco Shopping Bag",
+    "prices": {
+      "New World": {
+        "price": 0.99,
+        "link": "https://www.newworld.co.nz/shop/product/5226143_ea_000nw?name=new-world-eco-shopping-bag"
+      },
+      "Pak'nSave": {
+        "price": 3.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5015656_ea_000pns?name=doritos-cheese-supreme-corn-chips-party-bag-share-pack"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5226143.png?w=384"
+  },
+  {
+    "name": "Nature's Fresh White Toast Bread",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5026067_ea_000nw?name=nature%27s-fresh-white-toast-bread"
+      },
+      "Pak'nSave": {
+        "price": 3.59,
+        "link": "https://www.paknsave.co.nz/shop/product/5026067_ea_000pns?name=nature%27s-fresh-white-toast-bread"
+      },
+      "Woolworths": {
+        "price": 3.99,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=275560&name=natures-fresh-toast-bread-white"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5026067.png?w=384"
+  },
+  {
+    "name": "Molenberg Original Toast Bread",
+    "prices": {
+      "New World": {
+        "price": 4.19,
+        "link": "https://www.newworld.co.nz/shop/product/5026127_ea_000nw?name=molenberg-original-toast-bread"
+      },
+      "Pak'nSave": {
+        "price": 3.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5026127_ea_000pns?name=molenberg-original-toast-bread"
+      },
+      "Woolworths": {
+        "price": 4.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=275585&name=molenberg-toast-bread-original"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5026127.png?w=384"
+  },
+  {
+    "name": "Brown Onions",
+    "prices": {
+      "New World": {
+        "price": 1.79,
+        "link": "https://www.newworld.co.nz/shop/product/5045856_kgm_000nw?name=-brown-onions"
+      },
+      "Pak'nSave": {
+        "price": 1.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5045856_kgm_000pns?name=-brown-onions"
+      },
+      "Woolworths": {
+        "price": 1.99,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=144329&name=fresh-vegetable-onions-brown"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5045856.png?w=384"
+  },
+  {
+    "name": "NZ Beef Prime Mince",
+    "prices": {
+      "New World": {
+        "price": 20.99,
+        "link": "https://www.newworld.co.nz/shop/product/5125914_kgm_000nw?name=-nz-beef-prime-mince"
+      },
+      "Pak'nSave": {
+        "price": 12.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5125914_kgm_000pns?name=-nz-beef-prime-mince"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5125914.png?w=384"
+  },
+  {
+    "name": "Pams Value Wheatmeal Toast Fresh Sliced Bread",
+    "prices": {
+      "New World": {
+        "price": 1.49,
+        "link": "https://www.newworld.co.nz/shop/product/5233712_ea_000nw?name=pams-value-wheatmeal-toast-fresh-sliced-bread"
+      },
+      "Pak'nSave": {
+        "price": 1.39,
+        "link": "https://www.paknsave.co.nz/shop/product/5233712_ea_000pns?name=pams-value-wheatmeal-toast-fresh-sliced-bread"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5233712.png?w=384"
+  },
+  {
+    "name": "Tip Top Oatilicious Toast Bread",
+    "prices": {
+      "New World": {
+        "price": 4.19,
+        "link": "https://www.newworld.co.nz/shop/product/5017010_ea_000nw?name=tip-top-oatilicious-toast-bread"
+      },
+      "Pak'nSave": {
+        "price": 3.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5017010_ea_000pns?name=tip-top-oatilicious-toast-bread"
+      },
+      "Woolworths": {
+        "price": 4.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=371547&name=tip-top-oatilicious-toast-bread"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5017010.png?w=384"
+  },
+  {
+    "name": "White Washed Potatoes",
+    "prices": {
+      "New World": {
+        "price": 2.79,
+        "link": "https://www.newworld.co.nz/shop/product/5045849_kgm_000nw?name=-white-washed-potatoes"
+      },
+      "Pak'nSave": {
+        "price": 2.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5045849_kgm_000pns?name=-white-washed-potatoes"
+      },
+      "Woolworths": {
+        "price": 4.09,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188100"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5045849.png?w=384"
+  },
+  {
+    "name": "NZ Chicken Drumsticks",
+    "prices": {
+      "New World": {
+        "price": 5.99,
+        "link": "https://www.newworld.co.nz/shop/product/5105213_kgm_000nw?name=-nz-chicken-drumsticks"
+      },
+      "Pak'nSave": {
+        "price": 6.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5105213_kgm_000pns?name=-nz-chicken-drumsticks"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5105213.png?w=384"
+  },
+  {
+    "name": "Loose Red Tomatoes",
+    "prices": {
+      "New World": {
+        "price": 4.99,
+        "link": "https://www.newworld.co.nz/shop/product/5040098_kgm_000nw?name=-loose-red-tomatoes"
+      },
+      "Pak'nSave": {
+        "price": 4.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5040098_kgm_000pns?name=-loose-red-tomatoes"
+      },
+      "Woolworths": {
+        "price": 0.92,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=311488&name=essentials-diced-tomatoes"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040098.png?w=384"
+  },
+  {
+    "name": "Bluebird Originals Ready Salted Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 2.79,
+        "link": "https://www.newworld.co.nz/shop/product/5010717_ea_000nw?name=bluebird-originals-ready-salted-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 5,
+        "link": "https://www.paknsave.co.nz/shop/product/5010717_ea_000pns?name=bluebird-originals-ready-salted-potato-chips"
+      },
+      "Woolworths": {
+        "price": 2.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=297515&name=bluebird-originals-chips-ready-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5010717.png?w=384"
+  },
+  {
+    "name": "Pams Baby Spinach",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5040464_ea_000nw?name=pams-baby-spinach"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5040464_ea_000pns?name=pams-baby-spinach"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040464.png?w=384"
+  },
+  {
+    "name": "Royal Gala Apples",
+    "prices": {
+      "New World": {
+        "price": 5.99,
+        "link": "https://www.newworld.co.nz/shop/product/5046525_kgm_000nw?name=-royal-gala-apples"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5046525_kgm_000pns?name=-royal-gala-apples"
+      },
+      "Woolworths": {
+        "price": 4.49,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=155003&name=fresh-fruit-apples-royal-gala"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046525.png?w=384"
+  },
+  {
+    "name": "Anchor Lite Milk",
+    "prices": {
+      "New World": {
+        "price": 5.44,
+        "link": "https://www.newworld.co.nz/shop/product/5000523_ea_000nw?name=anchor-lite-milk"
+      },
+      "Pak'nSave": {
+        "price": 5.34,
+        "link": "https://www.paknsave.co.nz/shop/product/5000523_ea_000pns?name=anchor-lite-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5000523.png?w=384"
+  },
+  {
+    "name": "Fresh Cut Lettuce",
+    "prices": {
+      "New World": {
+        "price": 2.99,
+        "link": "https://www.newworld.co.nz/shop/product/5046440_ea_000nw?name=-fresh-cut-lettuce"
+      },
+      "Pak'nSave": {
+        "price": 2.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5046440_ea_000pns?name=-fresh-cut-lettuce"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046440.png?w=384"
+  },
+  {
+    "name": "Yellow Capsicum",
+    "prices": {
+      "New World": {
+        "price": 2.39,
+        "link": "https://www.newworld.co.nz/shop/product/5046504_ea_000nw?name=-yellow-capsicum"
+      },
+      "Pak'nSave": {
+        "price": 1.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5046504_ea_000pns?name=-yellow-capsicum"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046504.png?w=384"
+  },
+  {
+    "name": "Red Kumara",
+    "prices": {
+      "New World": {
+        "price": 6.49,
+        "link": "https://www.newworld.co.nz/shop/product/5237500_kgm_000nw?name=-red-kumara"
+      },
+      "Pak'nSave": {
+        "price": 5.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5237500_kgm_000pns?name=-red-kumara"
+      },
+      "Woolworths": {
+        "price": 2.39,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281197&name=fresh-vegetable-capsicum-red"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5237500.png?w=384"
+  },
+  {
+    "name": "Ciabatta Buns",
+    "prices": {
+      "New World": {
+        "price": 5.99,
+        "link": "https://www.newworld.co.nz/shop/product/5118178_ea_000nw?name=-ciabatta-buns"
+      },
+      "Pak'nSave": {
+        "price": 5.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5109650_ea_000pns?name=-ciabatta-buns"
+      },
+      "Woolworths": {
+        "price": 6.8,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5118178.png?w=384"
+  },
+  {
+    "name": "Orange Kumara",
+    "prices": {
+      "New World": {
+        "price": 6.49,
+        "link": "https://www.newworld.co.nz/shop/product/5040011_kgm_000nw?name=-orange-kumara"
+      },
+      "Pak'nSave": {
+        "price": 5.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5040011_kgm_000pns?name=-orange-kumara"
+      },
+      "Woolworths": {
+        "price": 6.3,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=285868&name=fresh-vegetable-kumara-orange"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040011.png?w=384"
+  },
+  {
+    "name": "Sorbent Silky White Long Roll 3 Ply Toilet Rolls",
+    "prices": {
+      "New World": {
+        "price": 8.99,
+        "link": "https://www.newworld.co.nz/shop/product/5019669_ea_000nw?name=sorbent-silky-white-long-roll-3-ply-toilet-rolls"
+      },
+      "Pak'nSave": {
+        "price": 7.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5019669_ea_000pns?name=sorbent-silky-white-long-roll-3-ply-toilet-rolls"
+      },
+      "Woolworths": {
+        "price": 3.99,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=275560&name=natures-fresh-toast-bread-white"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5019669.png?w=384"
+  },
+  {
+    "name": "Pams Fresh Cherry Tomatoes",
+    "prices": {
+      "New World": {
+        "price": 2.99,
+        "link": "https://www.newworld.co.nz/shop/product/5039973_ea_000nw?name=pams-fresh-cherry-tomatoes"
+      },
+      "Pak'nSave": {
+        "price": 2.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5039973_ea_000pns?name=pams-fresh-cherry-tomatoes"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5039973.png?w=384"
+  },
+  {
+    "name": "Pams Colby Cheese",
+    "prices": {
+      "New World": {
+        "price": 12.69,
+        "link": "https://www.newworld.co.nz/shop/product/5268695_ea_000nw?name=pams-colby-cheese"
+      },
+      "Pak'nSave": {
+        "price": 11.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5268695_ea_000pns?name=pams-colby-cheese"
+      },
+      "Woolworths": {
+        "price": 11.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5268695.png?w=384"
+  },
+  {
+    "name": "Navel Oranges",
+    "prices": {
+      "New World": {
+        "price": 5.99,
+        "link": "https://www.newworld.co.nz/shop/product/5046611_kgm_000nw?name=-navel-oranges"
+      },
+      "Pak'nSave": {
+        "price": 1.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5011818_ea_000pns?name=raro-favourites-sweet-navel-orange-flavoured-beverage-mix"
+      },
+      "Woolworths": {
+        "price": 6.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=149885&name=fresh-fruit-oranges-navel"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046611.png?w=384"
+  },
+  {
+    "name": "Pams Value Trim Milk",
+    "prices": {
+      "New World": {
+        "price": 4.48,
+        "link": "https://www.newworld.co.nz/shop/product/5201486_ea_000nw?name=pams-value-trim-milk"
+      },
+      "Pak'nSave": {
+        "price": 4.4,
+        "link": "https://www.paknsave.co.nz/shop/product/5201486_ea_000pns?name=pams-value-trim-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5201486.png?w=384"
+  },
+  {
+    "name": "Beef Rump Steak",
+    "prices": {
+      "New World": {
+        "price": 25.99,
+        "link": "https://www.newworld.co.nz/shop/product/5103401_kgm_000nw?name=-beef-rump-steak"
+      },
+      "Pak'nSave": {
+        "price": 24.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5103401_kgm_000pns?name=-beef-rump-steak"
+      },
+      "Woolworths": {
+        "price": 18.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5103401.png?w=384"
+  },
+  {
+    "name": "Bluebird Originals Salt & Vinegar Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 2.79,
+        "link": "https://www.newworld.co.nz/shop/product/5010719_ea_000nw?name=bluebird-originals-salt--vinegar-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 5,
+        "link": "https://www.paknsave.co.nz/shop/product/5010719_ea_000pns?name=bluebird-originals-salt--vinegar-potato-chips"
+      },
+      "Woolworths": {
+        "price": 2.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=297512&name=bluebird-originals-chips-salt-vinegar"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5010719.png?w=384"
+  },
+  {
+    "name": "Anchor Butter",
+    "prices": {
+      "New World": {
+        "price": 9.89,
+        "link": "https://www.newworld.co.nz/shop/product/5002650_ea_000nw?name=anchor-butter"
+      },
+      "Pak'nSave": {
+        "price": 9.39,
+        "link": "https://www.paknsave.co.nz/shop/product/5002650_ea_000pns?name=anchor-butter"
+      },
+      "Woolworths": {
+        "price": 7.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=827847&name=woolworths-butter-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5002650.png?w=384"
+  },
+  {
+    "name": "Coca-Cola Soft Drink",
+    "prices": {
+      "New World": {
+        "price": 4.79,
+        "link": "https://www.newworld.co.nz/shop/product/5001548_ea_000nw?name=coca-cola-soft-drink"
+      },
+      "Pak'nSave": {
+        "price": 4.59,
+        "link": "https://www.paknsave.co.nz/shop/product/5001903_ea_000pns?name=coca-cola-soft-drink"
+      },
+      "Woolworths": {
+        "price": 5.29,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=229608&name=coca-cola-soft-drink-zero-sugar"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5001548.png?w=384"
+  },
+  {
+    "name": "Campari Vine Tomatoes",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5046412_ea_000nw?name=campari-vine-tomatoes"
+      },
+      "Pak'nSave": {
+        "price": 0.89,
+        "link": "https://www.paknsave.co.nz/shop/product/5092718_ea_000pns?name=pams-value-chopped-tomatoes-in-juice"
+      },
+      "Woolworths": {
+        "price": 3.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=58643&name=woolworths-fresh-tomatoes-cherry"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046412.png?w=384"
+  },
+  {
+    "name": "Pams Brown Onions.",
+    "prices": {
+      "New World": {
+        "price": 4.49,
+        "link": "https://www.newworld.co.nz/shop/product/5264187_ea_000nw?name=pams-brown-onions."
+      },
+      "Pak'nSave": {
+        "price": 1.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5045856_kgm_000pns?name=-brown-onions"
+      },
+      "Woolworths": {
+        "price": 1.99,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=144329&name=fresh-vegetable-onions-brown"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5264187.png?w=384"
+  },
+  {
+    "name": "Green Capsicum",
+    "prices": {
+      "New World": {
+        "price": 2.29,
+        "link": "https://www.newworld.co.nz/shop/product/5046505_ea_000nw?name=-green-capsicum"
+      },
+      "Pak'nSave": {
+        "price": 1.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5046505_ea_000pns?name=-green-capsicum"
+      },
+      "Woolworths": {
+        "price": 2.39,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281197&name=fresh-vegetable-capsicum-red"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046505.png?w=384"
+  },
+  {
+    "name": "Plain White Rolls",
+    "prices": {
+      "New World": {
+        "price": 3.89,
+        "link": "https://www.newworld.co.nz/shop/product/5121946_ea_000nw?name=-plain-white-rolls"
+      },
+      "Pak'nSave": {
+        "price": 1.39,
+        "link": "https://www.paknsave.co.nz/shop/product/5092911_ea_000pns?name=pams-value-white-toast-fresh-sliced-bread"
+      },
+      "Woolworths": {
+        "price": 3.99,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=275560&name=natures-fresh-toast-bread-white"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5121946.png?w=384"
+  },
+  {
+    "name": "Ploughmans Bakery Soy & Canterbury Linseed Bread",
+    "prices": {
+      "New World": {
+        "price": 4.39,
+        "link": "https://www.newworld.co.nz/shop/product/5011078_ea_000nw?name=ploughmans-bakery-soy--canterbury-linseed-bread"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5011078_ea_000pns?name=ploughmans-bakery-soy--canterbury-linseed-bread"
+      },
+      "Woolworths": {
+        "price": 3.99,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=275560&name=natures-fresh-toast-bread-white"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5011078.png?w=384"
+  },
+  {
+    "name": "Pams Value Chopped Tomatoes in Juice",
+    "prices": {
+      "New World": {
+        "price": 0.99,
+        "link": "https://www.newworld.co.nz/shop/product/5092718_ea_000nw?name=pams-value-chopped-tomatoes-in-juice"
+      },
+      "Pak'nSave": {
+        "price": 0.89,
+        "link": "https://www.paknsave.co.nz/shop/product/5092718_ea_000pns?name=pams-value-chopped-tomatoes-in-juice"
+      },
+      "Woolworths": {
+        "price": 5.49,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=149681&name=fresh-tomatoes-loose"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5092718.png?w=384"
+  },
+  {
+    "name": "Chicken Nibbles",
+    "prices": {
+      "New World": {
+        "price": 11.99,
+        "link": "https://www.newworld.co.nz/shop/product/5100208_kgm_000nw?name=-chicken-nibbles"
+      },
+      "Pak'nSave": {
+        "price": 10.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5100208_kgm_000pns?name=-chicken-nibbles"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5100208.png?w=384"
+  },
+  {
+    "name": "Pams Baby Leaf Lettuce",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5040462_ea_000nw?name=pams-baby-leaf-lettuce"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5040462_ea_000pns?name=pams-baby-leaf-lettuce"
+      },
+      "Woolworths": {
+        "price": 2.8,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=194870&name=leaderbrand-lettuce-crispy-iceberg"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040462.png?w=384"
+  },
+  {
+    "name": "Red Truss Tomatoes",
+    "prices": {
+      "New World": {
+        "price": 4.99,
+        "link": "https://www.newworld.co.nz/shop/product/5040099_kgm_000nw?name=-red-truss-tomatoes"
+      },
+      "Pak'nSave": {
+        "price": 1.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5046503_ea_000pns?name=-red-capsicum"
+      },
+      "Woolworths": {
+        "price": 0.92,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=311488&name=essentials-diced-tomatoes"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040099.png?w=384"
+  },
+  {
+    "name": "Bluebird Originals Sour Cream & Chives Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 5.5,
+        "link": "https://www.newworld.co.nz/shop/product/5010720_ea_000nw?name=bluebird-originals-sour-cream--chives-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 5,
+        "link": "https://www.paknsave.co.nz/shop/product/5010720_ea_000pns?name=bluebird-originals-sour-cream--chives-potato-chips"
+      },
+      "Woolworths": {
+        "price": 4.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282770&name=woolworths-cream-fresh"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5010720.png?w=384"
+  },
+  {
+    "name": "Whittaker's Creamy Milk 33% Cocoa Milk Chocolate",
+    "prices": {
+      "New World": {
+        "price": 7.69,
+        "link": "https://www.newworld.co.nz/shop/product/5009651_ea_000nw?name=whittaker%27s-creamy-milk-33%25-cocoa-milk-chocolate-block"
+      },
+      "Pak'nSave": {
+        "price": 6.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5009651_ea_000pns?name=whittaker%27s-creamy-milk-33%25-cocoa-milk-chocolate-block"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5009651.png?w=384"
+  },
+  {
+    "name": "Pams Cream",
+    "prices": {
+      "New World": {
+        "price": 8.75,
+        "link": "https://www.newworld.co.nz/shop/product/5028855_ea_000nw?name=pams-cream"
+      },
+      "Pak'nSave": {
+        "price": 8.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5028855_ea_000pns?name=pams-cream"
+      },
+      "Woolworths": {
+        "price": 4.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282770&name=woolworths-cream-fresh"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5028855.png?w=384"
+  },
+  {
+    "name": "Bluebird Thinly Cut Ready Salted Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 5.5,
+        "link": "https://www.newworld.co.nz/shop/product/5034758_ea_000nw?name=bluebird-thinly-cut-ready-salted-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 5,
+        "link": "https://www.paknsave.co.nz/shop/product/5034758_ea_000pns?name=bluebird-thinly-cut-ready-salted-potato-chips"
+      },
+      "Woolworths": {
+        "price": 7.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=827847&name=woolworths-butter-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5034758.png?w=384"
+  },
+  {
+    "name": "Beef Scotch Fillet Steak",
+    "prices": {
+      "New World": {
+        "price": 38.99,
+        "link": "https://www.newworld.co.nz/shop/product/5102637_kgm_000nw?name=-beef-scotch-fillet-steak"
+      },
+      "Pak'nSave": {
+        "price": 15.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5104350_kgm_000pns?name=-nz-beef-mince"
+      },
+      "Woolworths": {
+        "price": 18.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5102637.png?w=384"
+  },
+  {
+    "name": "Pams 2Ply Facial Tissues",
+    "prices": {
+      "New World": {
+        "price": 2.49,
+        "link": "https://www.newworld.co.nz/shop/product/5294818_ea_000nw?name=pams-2ply-facial-tissues"
+      },
+      "Pak'nSave": {
+        "price": 5,
+        "link": "https://www.paknsave.co.nz/shop/product/5294818_ea_000pns?name=pams-2ply-facial-tissues"
+      },
+      "Woolworths": {
+        "price": 2.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=668930&name=essentials-toilet-paper-12pk-white-2ply"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5294818.png?w=384"
+  },
+  {
+    "name": "Eta Ripple Cut Ready Salted Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 2.69,
+        "link": "https://www.newworld.co.nz/shop/product/5010826_ea_000nw?name=eta-ripple-cut-ready-salted-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 2.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5010826_ea_000pns?name=eta-ripple-cut-ready-salted-potato-chips"
+      },
+      "Woolworths": {
+        "price": 7.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=827847&name=woolworths-butter-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5010826.png?w=384"
+  },
+  {
+    "name": "Pams White 2Ply Paper Towels",
+    "prices": {
+      "New World": {
+        "price": 3.29,
+        "link": "https://www.newworld.co.nz/shop/product/5003810_ea_000nw?name=pams-white-2ply-paper-towels"
+      },
+      "Pak'nSave": {
+        "price": 2.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5003810_ea_000pns?name=pams-white-2ply-paper-towels"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=60867&name=tuffy-paper-towels-white-2ply"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5003810.png?w=384"
+  },
+  {
+    "name": "Hot Cross Buns",
+    "prices": {
+      "New World": {
+        "price": 6.29,
+        "link": "https://www.newworld.co.nz/shop/product/5104855_ea_000nw?name=-hot-cross-buns"
+      },
+      "Pak'nSave": {
+        "price": 4.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5104855_ea_000pns?name=-hot-cross-buns"
+      },
+      "Woolworths": {
+        "price": 6.8,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5104855.png?w=384"
+  },
+  {
+    "name": "Round Cheese Rolls",
+    "prices": {
+      "New World": {
+        "price": 4.79,
+        "link": "https://www.newworld.co.nz/shop/product/5104805_ea_000nw?name=-round-cheese-rolls"
+      },
+      "Pak'nSave": {
+        "price": 5.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5018101_ea_000pns?name=purex-mega-long-white-2-ply-toilet-rolls"
+      },
+      "Woolworths": {
+        "price": 11.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5104805.png?w=384"
+  },
+  {
+    "name": "Nature's Fresh Multigrain Toast Bread",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5012665_ea_000nw?name=nature%27s-fresh-multigrain-toast-bread"
+      },
+      "Pak'nSave": {
+        "price": 3.59,
+        "link": "https://www.paknsave.co.nz/shop/product/5012665_ea_000pns?name=nature%27s-fresh-multigrain-toast-bread"
+      },
+      "Woolworths": {
+        "price": 3.99,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=275703&name=natures-fresh-toast-bread-multigrain"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5012665.png?w=384"
+  },
+  {
+    "name": "Red Watermelon",
+    "prices": {
+      "New World": {
+        "price": 10.49,
+        "link": "https://www.newworld.co.nz/shop/product/5046547_ea_000nw?name=-red-watermelon"
+      },
+      "Pak'nSave": {
+        "price": 3.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5005255_ea_000pns?name=red-bull-energy-drink"
+      },
+      "Woolworths": {
+        "price": 2.39,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281197&name=fresh-vegetable-capsicum-red"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046547.png?w=384"
+  },
+  {
+    "name": "Pams Tasty Cheddar Cheese",
+    "prices": {
+      "New World": {
+        "price": 12.69,
+        "link": "https://www.newworld.co.nz/shop/product/5268696_ea_000nw?name=pams-tasty-cheddar-cheese"
+      },
+      "Pak'nSave": {
+        "price": 11.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5268696_ea_000pns?name=pams-tasty-cheddar-cheese"
+      },
+      "Woolworths": {
+        "price": 11.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5268696.png?w=384"
+  },
+  {
+    "name": "Peeled Red Onions",
+    "prices": {
+      "New World": {
+        "price": 6.49,
+        "link": "https://www.newworld.co.nz/shop/product/5223140_kgm_000nw?name=-peeled-red-onions"
+      },
+      "Pak'nSave": {
+        "price": 2.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5223140_kgm_000pns?name=-peeled-red-onions"
+      },
+      "Woolworths": {
+        "price": 2.39,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281197&name=fresh-vegetable-capsicum-red"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5223140.png?w=384"
+  },
+  {
+    "name": "Nature's Fresh White Sandwich Bread",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5026066_ea_000nw?name=nature%27s-fresh-white-sandwich-bread"
+      },
+      "Pak'nSave": {
+        "price": 3.59,
+        "link": "https://www.paknsave.co.nz/shop/product/5026066_ea_000pns?name=nature%27s-fresh-white-sandwich-bread"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=135344&name=fresh-vegetable-carrots"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5026066.png?w=384"
+  },
+  {
+    "name": "Pams White Sugar",
+    "prices": {
+      "New World": {
+        "price": 3.69,
+        "link": "https://www.newworld.co.nz/shop/product/5003885_ea_000nw?name=pams-white-sugar"
+      },
+      "Pak'nSave": {
+        "price": 2.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5003885_ea_000pns?name=pams-white-sugar"
+      },
+      "Woolworths": {
+        "price": 3.99,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=275560&name=natures-fresh-toast-bread-white"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5003885.png?w=384"
+  },
+  {
+    "name": "Pams Standard UHT Milk",
+    "prices": {
+      "New World": {
+        "price": 2.19,
+        "link": "https://www.newworld.co.nz/shop/product/5004752_ea_000nw?name=pams-standard-uht-milk"
+      },
+      "Pak'nSave": {
+        "price": 2.09,
+        "link": "https://www.paknsave.co.nz/shop/product/5004752_ea_000pns?name=pams-standard-uht-milk"
+      },
+      "Woolworths": {
+        "price": 2.19,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5004752.png?w=384"
+  },
+  {
+    "name": "NZ Celery",
+    "prices": {
+      "New World": {
+        "price": 2.79,
+        "link": "https://www.newworld.co.nz/shop/product/5046562_ea_000nw?name=-nz-celery"
+      },
+      "Pak'nSave": {
+        "price": 4.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5046562_ea_000pns?name=-nz-celery"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046562.png?w=384"
+  },
+  {
+    "name": "White Button Mushrooms",
+    "prices": {
+      "New World": {
+        "price": 12.99,
+        "link": "https://www.newworld.co.nz/shop/product/5046533_kgm_000nw?name=-white-button-mushrooms"
+      },
+      "Pak'nSave": {
+        "price": 10.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5046533_kgm_000pns?name=-white-button-mushrooms"
+      },
+      "Woolworths": {
+        "price": 4.09,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188100"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046533.png?w=384"
+  },
+  {
+    "name": "Anchor Calci-Yum Chocolate Flavour Milk",
+    "prices": {
+      "New World": {
+        "price": 1.59,
+        "link": "https://www.newworld.co.nz/shop/product/5010693_ea_000nw?name=anchor-calci-yum-chocolate-flavour-milk"
+      },
+      "Pak'nSave": {
+        "price": 1.19,
+        "link": "https://www.paknsave.co.nz/shop/product/5010693_ea_000pns?name=anchor-calci-yum-chocolate-flavour-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282769&name=woolworths-milk-lite"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5010693.png?w=384"
+  },
+  {
+    "name": "Rose Apples",
+    "prices": {
+      "New World": {
+        "price": 6.49,
+        "link": "https://www.newworld.co.nz/shop/product/5045864_kgm_000nw?name=-rose-apples"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5046525_kgm_000pns?name=-royal-gala-apples"
+      },
+      "Woolworths": {
+        "price": 4.49,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=155003&name=fresh-fruit-apples-royal-gala"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5045864.png?w=384"
+  },
+  {
+    "name": "Handee Ultra Double Length 2 Ply Paper Towels",
+    "prices": {
+      "New World": {
+        "price": 5.99,
+        "link": "https://www.newworld.co.nz/shop/product/5260093_ea_000nw?name=handee-ultra-double-length-2-ply-paper-towels"
+      },
+      "Pak'nSave": {
+        "price": 5.59,
+        "link": "https://www.paknsave.co.nz/shop/product/5260093_ea_000pns?name=handee-ultra-double-length-2-ply-paper-towels"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=60867&name=tuffy-paper-towels-white-2ply"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5260093.png?w=384"
+  },
+  {
+    "name": "Schweppes Sparkling Duet Orange & Lemon Soft Drink",
+    "prices": {
+      "New World": {
+        "price": 1.49,
+        "link": "https://www.newworld.co.nz/shop/product/5003623_ea_000nw?name=schweppes-sparkling-duet-orange--lemon-soft-drink"
+      },
+      "Pak'nSave": {
+        "price": 5.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5040011_kgm_000pns?name=-orange-kumara"
+      },
+      "Woolworths": {
+        "price": 4.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=148425&name=l-p-soft-drink-lemon-paeroa"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5003623.png?w=384"
+  },
+  {
+    "name": "Heartland Southern Salt Old Fashioned Wave Cut Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 3.19,
+        "link": "https://www.newworld.co.nz/shop/product/5011412_ea_000nw?name=heartland-southern-salt-old-fashioned-wave-cut-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 2.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5011412_ea_000pns?name=heartland-southern-salt-old-fashioned-wave-cut-potato-chips"
+      },
+      "Woolworths": {
+        "price": 2.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=297515&name=bluebird-originals-chips-ready-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5011412.png?w=384"
+  },
+  {
+    "name": "NZ Pork Leg Roast",
+    "prices": {
+      "New World": {
+        "price": 12.99,
+        "link": "https://www.newworld.co.nz/shop/product/5125281_kgm_000nw?name=-nz-pork-leg-roast"
+      },
+      "Pak'nSave": {
+        "price": 9.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5125281_kgm_000pns?name=-nz-pork-leg-roast"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5125281.png?w=384"
+  },
+  {
+    "name": "Best Foods Real Mayonnaise",
+    "prices": {
+      "New World": {
+        "price": 5.99,
+        "link": "https://www.newworld.co.nz/shop/product/5004590_ea_000nw?name=best-foods-real-mayonnaise"
+      },
+      "Pak'nSave": {
+        "price": 6.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5004590_ea_000pns?name=best-foods-real-mayonnaise"
+      },
+      "Woolworths": {
+        "price": 7.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=304977&name=best-foods-mayonnaise-real"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5004590.png?w=384"
+  },
+  {
+    "name": "LeaderBrand Baby Spinach",
+    "prices": {
+      "New World": {
+        "price": 4.49,
+        "link": "https://www.newworld.co.nz/shop/product/5040724_ea_000nw?name=leaderbrand-baby-spinach"
+      },
+      "Pak'nSave": {
+        "price": 5.19,
+        "link": "https://www.paknsave.co.nz/shop/product/5040708_ea_000pns?name=leaderbrand-crispy-salad-with-kiwi-dressing"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040724.png?w=384"
+  },
+  {
+    "name": "Anchor Trim Milk",
+    "prices": {
+      "New World": {
+        "price": 3.3,
+        "link": "https://www.newworld.co.nz/shop/product/5000520_ea_000nw?name=anchor-trim-milk"
+      },
+      "Pak'nSave": {
+        "price": 3.25,
+        "link": "https://www.paknsave.co.nz/shop/product/5000520_ea_000pns?name=anchor-trim-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5000520.png?w=384"
+  },
+  {
+    "name": "NZ Chicken Tenderloins",
+    "prices": {
+      "New World": {
+        "price": 19.99,
+        "link": "https://www.newworld.co.nz/shop/product/5113040_kgm_000nw?name=-nz-chicken-tenderloins"
+      },
+      "Pak'nSave": {
+        "price": 19.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5113040_kgm_000pns?name=-nz-chicken-tenderloins"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5113040.png?w=384"
+  },
+  {
+    "name": "Pams Fragrance Free Baby Wipes",
+    "prices": {
+      "New World": {
+        "price": 2.99,
+        "link": "https://www.newworld.co.nz/shop/product/5004912_ea_000nw?name=pams-fragrance-free-baby-wipes"
+      },
+      "Pak'nSave": {
+        "price": 2.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5004912_ea_000pns?name=pams-fragrance-free-baby-wipes"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5004912.png?w=384"
+  },
+  {
+    "name": "Snacka Changi Chips Vinegar & Salt Kettle Fried Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 2.9,
+        "link": "https://www.newworld.co.nz/shop/product/5269375_ea_000nw?name=snacka-changi-chips-vinegar--salt-kettle-fried-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 4.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5269375_ea_000pns?name=snacka-changi-chips-vinegar--salt-kettle-fried-potato-chips"
+      },
+      "Woolworths": {
+        "price": 2.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=297515&name=bluebird-originals-chips-ready-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5269375.png?w=384"
+  },
+  {
+    "name": "Eta Ripple Cut Sour Cream & Chives Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 2.69,
+        "link": "https://www.newworld.co.nz/shop/product/5010165_ea_000nw?name=eta-ripple-cut-sour-cream--chives-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 2.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5010165_ea_000pns?name=eta-ripple-cut-sour-cream--chives-potato-chips"
+      },
+      "Woolworths": {
+        "price": 4.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282770&name=woolworths-cream-fresh"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5010165.png?w=384"
+  },
+  {
+    "name": "NZ Pork Loin Chops",
+    "prices": {
+      "New World": {
+        "price": 16.99,
+        "link": "https://www.newworld.co.nz/shop/product/5100697_kgm_000nw?name=-nz-pork-loin-chops"
+      },
+      "Pak'nSave": {
+        "price": 9.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5100697_kgm_000pns?name=-nz-pork-loin-chops"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5100697.png?w=384"
+  },
+  {
+    "name": "Nature's Fresh Wheatmeal Toast Bread",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5013065_ea_000nw?name=nature%27s-fresh-wheatmeal-toast-bread"
+      },
+      "Pak'nSave": {
+        "price": 3.59,
+        "link": "https://www.paknsave.co.nz/shop/product/5013065_ea_000pns?name=nature%27s-fresh-wheatmeal-toast-bread"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=135344&name=fresh-vegetable-carrots"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5013065.png?w=384"
+  },
+  {
+    "name": "Pams Fresh Round Green Beans",
+    "prices": {
+      "New World": {
+        "price": 4.49,
+        "link": "https://www.newworld.co.nz/shop/product/5040894_ea_000nw?name=pams-fresh-round-green-beans"
+      },
+      "Pak'nSave": {
+        "price": 2.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5040894_ea_000pns?name=pams-fresh-round-green-beans"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040894.png?w=384"
+  },
+  {
+    "name": "Meadow Fresh Kalo Natural Greek Yoghurt",
+    "prices": {
+      "New World": {
+        "price": 9.39,
+        "link": "https://www.newworld.co.nz/shop/product/5223553_ea_000nw?name=meadow-fresh-kalo-natural-greek-yoghurt"
+      },
+      "Pak'nSave": {
+        "price": 6.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5223553_ea_000pns?name=meadow-fresh-kalo-natural-greek-yoghurt"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5223553.png?w=384"
+  },
+  {
+    "name": "Anchor A2 Blue Milk",
+    "prices": {
+      "New World": {
+        "price": 7.2,
+        "link": "https://www.newworld.co.nz/shop/product/5238432_ea_000nw?name=anchor-a2-blue-milk"
+      },
+      "Pak'nSave": {
+        "price": 7.1,
+        "link": "https://www.paknsave.co.nz/shop/product/5238432_ea_000pns?name=anchor-a2-blue-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5238432.png?w=384"
+  },
+  {
+    "name": "Arnott's Shapes Originals Cheese & Bacon Crackers",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5011027_ea_000nw?name=arnott%27s-shapes-originals-cheese--bacon-crackers"
+      },
+      "Pak'nSave": {
+        "price": 3.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5011027_ea_000pns?name=arnott%27s-shapes-originals-cheese--bacon-crackers"
+      },
+      "Woolworths": {
+        "price": 19.8,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=97999&name=grandpas-streaky-bacon"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5011027.png?w=384"
+  },
+  {
+    "name": "NZ Beef Schnitzel",
+    "prices": {
+      "New World": {
+        "price": 25.99,
+        "link": "https://www.newworld.co.nz/shop/product/5103224_kgm_000nw?name=-nz-beef-schnitzel"
+      },
+      "Pak'nSave": {
+        "price": 22.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5103224_kgm_000pns?name=-nz-beef-schnitzel"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5103224.png?w=384"
+  },
+  {
+    "name": "NZ Chicken Thighs Bone In",
+    "prices": {
+      "New World": {
+        "price": 10.99,
+        "link": "https://www.newworld.co.nz/shop/product/5118844_kgm_000nw?name=-nz-chicken-thighs-bone-in"
+      },
+      "Pak'nSave": {
+        "price": 9.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5118844_kgm_000pns?name=-nz-chicken-thighs-bone-in"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5118844.png?w=384"
+  },
+  {
+    "name": "Pams Mesclun Salad",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5040468_ea_000nw?name=pams-mesclun-salad"
+      },
+      "Pak'nSave": {
+        "price": 3.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5040468_ea_000pns?name=pams-mesclun-salad"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040468.png?w=384"
+  },
+  {
+    "name": "Pure NZ Spring Water",
+    "prices": {
+      "New World": {
+        "price": 0.99,
+        "link": "https://www.newworld.co.nz/shop/product/5007226_ea_000nw?name=pure-nz-spring-water"
+      },
+      "Pak'nSave": {
+        "price": 0.89,
+        "link": "https://www.paknsave.co.nz/shop/product/5007226_ea_000pns?name=pure-nz-spring-water"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5007226.png?w=384"
+  },
+  {
+    "name": "Sweet Tango Apples",
+    "prices": {
+      "New World": {
+        "price": 6.49,
+        "link": "https://www.newworld.co.nz/shop/product/5046510_kgm_000nw?name=-sweet-tango-apples"
+      },
+      "Pak'nSave": {
+        "price": 1.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5016928_ea_000pns?name=sealord-sweet-thai-chilli-tuna"
+      },
+      "Woolworths": {
+        "price": 4.49,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=155003&name=fresh-fruit-apples-royal-gala"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046510.png?w=384"
+  },
+  {
+    "name": "Nature's Fresh White Super Thick Toast Bread",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5026013_ea_000nw?name=nature%27s-fresh-white-super-thick-toast-bread"
+      },
+      "Pak'nSave": {
+        "price": 3.59,
+        "link": "https://www.paknsave.co.nz/shop/product/5026013_ea_000pns?name=nature%27s-fresh-white-super-thick-toast-bread"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5026013.png?w=384"
+  },
+  {
+    "name": "Tuffy White 2 Ply Paper Towels",
+    "prices": {
+      "New World": {
+        "price": 3.49,
+        "link": "https://www.newworld.co.nz/shop/product/5260418_ea_000nw?name=tuffy-white-2-ply-paper-towels"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5012252_ea_000pns?name=tuffy-white-2-ply-paper-towels"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=60867&name=tuffy-paper-towels-white-2ply"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5260418.png?w=384"
+  },
+  {
+    "name": "Beef Corned Silverside",
+    "prices": {
+      "New World": {
+        "price": 14.99,
+        "link": "https://www.newworld.co.nz/shop/product/5118849_kgm_000nw?name=-beef-corned-silverside"
+      },
+      "Pak'nSave": {
+        "price": 16.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5118849_kgm_000pns?name=-beef-corned-silverside"
+      },
+      "Woolworths": {
+        "price": 18.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5118849.png?w=384"
+  },
+  {
+    "name": "L&P Soft Drink",
+    "prices": {
+      "New World": {
+        "price": 1.49,
+        "link": "https://www.newworld.co.nz/shop/product/5001551_ea_000nw?name=lp-soft-drink"
+      },
+      "Pak'nSave": {
+        "price": 3.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5001551_ea_000pns?name=lp-soft-drink"
+      },
+      "Woolworths": {
+        "price": 4.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=148425&name=l-p-soft-drink-lemon-paeroa"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5001551.png?w=384"
+  },
+  {
+    "name": "Mainland Salted Buttersoft Spreadable Butter",
+    "prices": {
+      "New World": {
+        "price": 10.99,
+        "link": "https://www.newworld.co.nz/shop/product/5013505_ea_000nw?name=mainland-salted-buttersoft-spreadable-butter"
+      },
+      "Pak'nSave": {
+        "price": 8.59,
+        "link": "https://www.paknsave.co.nz/shop/product/5013505_ea_000pns?name=mainland-salted-buttersoft-spreadable-butter"
+      },
+      "Woolworths": {
+        "price": 7.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=827847&name=woolworths-butter-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5013505.png?w=384"
+  },
+  {
+    "name": "Ornelle Camembert Cheese",
+    "prices": {
+      "New World": {
+        "price": 4.89,
+        "link": "https://www.newworld.co.nz/shop/product/5014564_ea_000nw?name=ornelle-camembert-cheese"
+      },
+      "Pak'nSave": {
+        "price": 11.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5268694_ea_000pns?name=pams-edam-cheese"
+      },
+      "Woolworths": {
+        "price": 11.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5014564.png?w=384"
+  },
+  {
+    "name": "Snacka Changi Chips Salted Kettle Fried Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 2.9,
+        "link": "https://www.newworld.co.nz/shop/product/5269376_ea_000nw?name=snacka-changi-chips-salted-kettle-fried-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 4.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5269376_ea_000pns?name=snacka-changi-chips-salted-kettle-fried-potato-chips"
+      },
+      "Woolworths": {
+        "price": 7.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=827847&name=woolworths-butter-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5269376.png?w=384"
+  },
+  {
+    "name": "Bouton d'Or Feta Cheese",
+    "prices": {
+      "New World": {
+        "price": 5.99,
+        "link": "https://www.newworld.co.nz/shop/product/5012553_ea_000nw?name=bouton-d%27or-feta-cheese"
+      },
+      "Pak'nSave": {
+        "price": 5.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5012553_ea_000pns?name=bouton-d%27or-feta-cheese"
+      },
+      "Woolworths": {
+        "price": 11.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5012553.png?w=384"
+  },
+  {
+    "name": "Pams Ready Salted Flavour Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 1.89,
+        "link": "https://www.newworld.co.nz/shop/product/5005783_ea_000nw?name=pams-ready-salted-flavour-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 1.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5005783_ea_000pns?name=pams-ready-salted-potato-chips"
+      },
+      "Woolworths": {
+        "price": 7.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=827847&name=woolworths-butter-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5005783.png?w=384"
+  },
+  {
+    "name": "NZ Beef Sirloin Steak",
+    "prices": {
+      "New World": {
+        "price": 38.99,
+        "link": "https://www.newworld.co.nz/shop/product/5123919_kgm_000nw?name=-nz-beef-sirloin-steak"
+      },
+      "Pak'nSave": {
+        "price": 38.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5123919_kgm_000pns?name=-nz-beef-sirloin-steak"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5123919.png?w=384"
+  },
+  {
+    "name": "Ornelle Brie Cheese",
+    "prices": {
+      "New World": {
+        "price": 4.89,
+        "link": "https://www.newworld.co.nz/shop/product/5014563_ea_000nw?name=ornelle-brie-cheese"
+      },
+      "Pak'nSave": {
+        "price": 4.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5140580_ea_000pns?name=value-cheddar-flavoured-processed-cheese-slices"
+      },
+      "Woolworths": {
+        "price": 11.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5014563.png?w=384"
+  },
+  {
+    "name": "Chelsea White Sugar",
+    "prices": {
+      "New World": {
+        "price": 3.59,
+        "link": "https://www.newworld.co.nz/shop/product/5002760_ea_000nw?name=chelsea-white-sugar"
+      },
+      "Pak'nSave": {
+        "price": 3.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5002760_ea_000pns?name=chelsea-white-sugar"
+      },
+      "Woolworths": {
+        "price": 3.99,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=275560&name=natures-fresh-toast-bread-white"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5002760.png?w=384"
+  },
+  {
+    "name": "Cadbury Dairy Milk Dairy Milk Chocolate",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5249650_ea_000nw?name=cadbury-dairy-milk-dairy-milk-chocolate-block"
+      },
+      "Pak'nSave": {
+        "price": 5.09,
+        "link": "https://www.paknsave.co.nz/shop/product/5249650_ea_000pns?name=cadbury-dairy-milk-dairy-milk-chocolate-block"
+      },
+      "Woolworths": {
+        "price": 1,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=253326&name=cadbury-creme-egg"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5249650.png?w=384"
+  },
+  {
+    "name": "Jazz Apples",
+    "prices": {
+      "New World": {
+        "price": 6.49,
+        "link": "https://www.newworld.co.nz/shop/product/5046446_kgm_000nw?name=-jazz-apples"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5046525_kgm_000pns?name=-royal-gala-apples"
+      },
+      "Woolworths": {
+        "price": 4.49,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=155003&name=fresh-fruit-apples-royal-gala"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046446.png?w=384"
+  },
+  {
+    "name": "Mini Baguettes",
+    "prices": {
+      "New World": {
+        "price": 3.59,
+        "link": "https://www.newworld.co.nz/shop/product/5120279_ea_000nw?name=-mini-baguettes"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5020639_ea_000pns?name=pams-mini-frozen-hash-browns"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5120279.png?w=384"
+  },
+  {
+    "name": "Tip Top Oatilicious Super Thick Toast Bread",
+    "prices": {
+      "New World": {
+        "price": 4.19,
+        "link": "https://www.newworld.co.nz/shop/product/5024629_ea_000nw?name=tip-top-oatilicious-super-thick-toast-bread"
+      },
+      "Pak'nSave": {
+        "price": 3.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5024629_ea_000pns?name=tip-top-oatilicious-super-thick-toast-bread"
+      },
+      "Woolworths": {
+        "price": 4.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=371547&name=tip-top-oatilicious-toast-bread"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5024629.png?w=384"
+  },
+  {
+    "name": "Nestle Highlander Sweetened Condensed Milk Can",
+    "prices": {
+      "New World": {
+        "price": 4.29,
+        "link": "https://www.newworld.co.nz/shop/product/5002734_ea_000nw?name=nestle-highlander-sweetened-condensed-milk-can"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5002734_ea_000pns?name=nestle-highlander-sweetened-condensed-milk-can"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5002734.png?w=384"
+  },
+  {
+    "name": "Cheese & Bacon Rolls",
+    "prices": {
+      "New World": {
+        "price": 5.29,
+        "link": "https://www.newworld.co.nz/shop/product/5110935_ea_000nw?name=-cheese--bacon-rolls"
+      },
+      "Pak'nSave": {
+        "price": 5.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5018101_ea_000pns?name=purex-mega-long-white-2-ply-toilet-rolls"
+      },
+      "Woolworths": {
+        "price": 11.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5110935.png?w=384"
+  },
+  {
+    "name": "Mainland Salted Butter",
+    "prices": {
+      "New World": {
+        "price": 9.69,
+        "link": "https://www.newworld.co.nz/shop/product/5002842_ea_000nw?name=mainland-salted-butter"
+      },
+      "Pak'nSave": {
+        "price": 9.19,
+        "link": "https://www.paknsave.co.nz/shop/product/5002842_ea_000pns?name=mainland-salted-butter"
+      },
+      "Woolworths": {
+        "price": 2.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=297515&name=bluebird-originals-chips-ready-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5002842.png?w=384"
+  },
+  {
+    "name": "Pams Fresh Baby Cos Lettuce",
+    "prices": {
+      "New World": {
+        "price": 4.79,
+        "link": "https://www.newworld.co.nz/shop/product/5040461_ea_000nw?name=pams-fresh-baby-cos-lettuce"
+      },
+      "Pak'nSave": {
+        "price": 3.59,
+        "link": "https://www.paknsave.co.nz/shop/product/5040461_ea_000pns?name=pams-fresh-baby-cos-lettuce"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040461.png?w=384"
+  },
+  {
+    "name": "Heartland Salt & Vinegar Old Fashioned Wave Cut Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 3.19,
+        "link": "https://www.newworld.co.nz/shop/product/5011410_ea_000nw?name=heartland-salt--vinegar-old-fashioned-wave-cut-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 2.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5011412_ea_000pns?name=heartland-southern-salt-old-fashioned-wave-cut-potato-chips"
+      },
+      "Woolworths": {
+        "price": 2.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=297515&name=bluebird-originals-chips-ready-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5011410.png?w=384"
+  },
+  {
+    "name": "Nestle Milk Chocolate Scorched Almonds Box",
+    "prices": {
+      "New World": {
+        "price": 7.69,
+        "link": "https://www.newworld.co.nz/shop/product/5003409_ea_000nw?name=nestle-milk-chocolate-scorched-almonds-box"
+      },
+      "Pak'nSave": {
+        "price": 7.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5003409_ea_000pns?name=nestle-milk-chocolate-scorched-almonds-box"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282769&name=woolworths-milk-lite"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5003409.png?w=384"
+  },
+  {
+    "name": "Pringles Sour Cream & Onion Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 3.3,
+        "link": "https://www.newworld.co.nz/shop/product/5092476_ea_000nw?name=pringles-sour-cream--onion-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5248743_ea_000pns?name=pringles-minis-sour-cream--onion-potato-chips"
+      },
+      "Woolworths": {
+        "price": 4.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282770&name=woolworths-cream-fresh"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5092476.png?w=384"
+  },
+  {
+    "name": "Pams Vine Tomatoes",
+    "prices": {
+      "New World": {
+        "price": 4.49,
+        "link": "https://www.newworld.co.nz/shop/product/5263832_ea_000nw?name=pams-vine-tomatoes"
+      },
+      "Pak'nSave": {
+        "price": 1.39,
+        "link": "https://www.paknsave.co.nz/shop/product/5092911_ea_000pns?name=pams-value-white-toast-fresh-sliced-bread"
+      },
+      "Woolworths": {
+        "price": 0.92,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=311488&name=essentials-diced-tomatoes"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5263832.png?w=384"
+  },
+  {
+    "name": "Pams Fresh Tomatoes",
+    "prices": {
+      "New World": {
+        "price": 4.49,
+        "link": "https://www.newworld.co.nz/shop/product/5040905_ea_000nw?name=pams-fresh-tomatoes"
+      },
+      "Pak'nSave": {
+        "price": 2.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5039973_ea_000pns?name=pams-fresh-cherry-tomatoes"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281082&name=fresh-vegetable-broccoli-head"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040905.png?w=384"
+  },
+  {
+    "name": "Red Bull Energy Drink",
+    "prices": {
+      "New World": {
+        "price": 4.39,
+        "link": "https://www.newworld.co.nz/shop/product/5005255_ea_000nw?name=red-bull-energy-drink"
+      },
+      "Pak'nSave": {
+        "price": 3.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5005255_ea_000pns?name=red-bull-energy-drink"
+      },
+      "Woolworths": {
+        "price": 4.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=148425&name=l-p-soft-drink-lemon-paeroa"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5005255.png?w=384"
+  },
+  {
+    "name": "Pams Washed White Potatoes",
+    "prices": {
+      "New World": {
+        "price": 7.99,
+        "link": "https://www.newworld.co.nz/shop/product/5264171_ea_000nw?name=pams-washed-white-potatoes"
+      },
+      "Pak'nSave": {
+        "price": 6.19,
+        "link": "https://www.paknsave.co.nz/shop/product/5264171_ea_000pns?name=pams-washed-white-potatoes"
+      },
+      "Woolworths": {
+        "price": 2.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=668930&name=essentials-toilet-paper-12pk-white-2ply"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5264171.png?w=384"
+  },
+  {
+    "name": "NZ Pork Shoulder Roast",
+    "prices": {
+      "New World": {
+        "price": 12.99,
+        "link": "https://www.newworld.co.nz/shop/product/5101477_kgm_000nw?name=-nz-pork-shoulder-roast"
+      },
+      "Pak'nSave": {
+        "price": 11.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5101477_kgm_000pns?name=-nz-pork-shoulder-roast"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5101477.png?w=384"
+  },
+  {
+    "name": "Nestle Kit Kat Chunky Milk Chocolate Bar",
+    "prices": {
+      "New World": {
+        "price": 1.09,
+        "link": "https://www.newworld.co.nz/shop/product/5033743_ea_000nw?name=nestle-kit-kat-chunky-milk-chocolate-bar"
+      },
+      "Pak'nSave": {
+        "price": 1.89,
+        "link": "https://www.paknsave.co.nz/shop/product/5033743_ea_000pns?name=nestle-kit-kat-chunky-milk-chocolate-bar"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282769&name=woolworths-milk-lite"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5033743.png?w=384"
+  },
+  {
+    "name": "Pams Red Onions",
+    "prices": {
+      "New World": {
+        "price": 6.49,
+        "link": "https://www.newworld.co.nz/shop/product/5264183_ea_000nw?name=pams-red-onions"
+      },
+      "Pak'nSave": {
+        "price": 4.4,
+        "link": "https://www.paknsave.co.nz/shop/product/5201479_ea_000pns?name=pams-value-standard-milk"
+      },
+      "Woolworths": {
+        "price": 2.39,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281197&name=fresh-vegetable-capsicum-red"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5264183.png?w=384"
+  },
+  {
+    "name": "Doritos Cheese Supreme Corn Chips Party Bag Share Pack",
+    "prices": {
+      "New World": {
+        "price": 4.99,
+        "link": "https://www.newworld.co.nz/shop/product/5015656_ea_000nw?name=doritos-cheese-supreme-corn-chips-party-bag-share-pack"
+      },
+      "Pak'nSave": {
+        "price": 3.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5015656_ea_000pns?name=doritos-cheese-supreme-corn-chips-party-bag-share-pack"
+      },
+      "Woolworths": {
+        "price": 1.4,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188700"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5015656.png?w=384"
+  },
+  {
+    "name": "Pams Fresh Silverbeet",
+    "prices": {
+      "New World": {
+        "price": 4.49,
+        "link": "https://www.newworld.co.nz/shop/product/5046275_ea_000nw?name=pams-fresh-silverbeet"
+      },
+      "Pak'nSave": {
+        "price": 1.39,
+        "link": "https://www.paknsave.co.nz/shop/product/5092911_ea_000pns?name=pams-value-white-toast-fresh-sliced-bread"
+      },
+      "Woolworths": {
+        "price": 2.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281455&name=fresh-vegetable-cucumbers-telegraph"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046275.png?w=384"
+  },
+  {
+    "name": "Meadow Fresh Traditional Cream Cheese",
+    "prices": {
+      "New World": {
+        "price": 5.79,
+        "link": "https://www.newworld.co.nz/shop/product/5030846_ea_000nw?name=meadow-fresh-traditional-cream-cheese"
+      },
+      "Pak'nSave": {
+        "price": 4.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5030846_ea_000pns?name=meadow-fresh-traditional-cream-cheese"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=135344&name=fresh-vegetable-carrots"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5030846.png?w=384"
+  },
+  {
+    "name": "Pams Fresh Green & Red Cos Mix",
+    "prices": {
+      "New World": {
+        "price": 4.79,
+        "link": "https://www.newworld.co.nz/shop/product/5040673_ea_000nw?name=pams-fresh-green--red-cos-mix"
+      },
+      "Pak'nSave": {
+        "price": 3.59,
+        "link": "https://www.paknsave.co.nz/shop/product/5040673_ea_000pns?name=pams-fresh-green--red-cos-mix"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040673.png?w=384"
+  },
+  {
+    "name": "Pepsi Max Soft Drink",
+    "prices": {
+      "New World": {
+        "price": 6,
+        "link": "https://www.newworld.co.nz/shop/product/5007555_ea_000nw?name=pepsi-max-soft-drink"
+      },
+      "Pak'nSave": {
+        "price": 2.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5007555_ea_000pns?name=pepsi-max-soft-drink"
+      },
+      "Woolworths": {
+        "price": 4.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=148425&name=l-p-soft-drink-lemon-paeroa"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5007555.png?w=384"
+  },
+  {
+    "name": "Pams Soft Brown Sugar",
+    "prices": {
+      "New World": {
+        "price": 2.65,
+        "link": "https://www.newworld.co.nz/shop/product/5003683_ea_000nw?name=pams-soft-brown-sugar"
+      },
+      "Pak'nSave": {
+        "price": 2.19,
+        "link": "https://www.paknsave.co.nz/shop/product/5003683_ea_000pns?name=pams-soft-brown-sugar"
+      },
+      "Woolworths": {
+        "price": 4.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=148425&name=l-p-soft-drink-lemon-paeroa"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5003683.png?w=384"
+  },
+  {
+    "name": "Cadbury Dairy Milk Black Forest Chocolate",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5249654_ea_000nw?name=cadbury-dairy-milk-black-forest-chocolate-block"
+      },
+      "Pak'nSave": {
+        "price": 5.09,
+        "link": "https://www.paknsave.co.nz/shop/product/5249654_ea_000pns?name=cadbury-dairy-milk-black-forest-chocolate-block"
+      },
+      "Woolworths": {
+        "price": 1,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=253326&name=cadbury-creme-egg"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5249654.png?w=384"
+  },
+  {
+    "name": "Tip Top Supersoft High Fibre White Toast Bread",
+    "prices": {
+      "New World": {
+        "price": 4.09,
+        "link": "https://www.newworld.co.nz/shop/product/5275323_ea_000nw?name=tip-top-supersoft-high-fibre-white-toast-bread"
+      },
+      "Pak'nSave": {
+        "price": 3.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5275323_ea_000pns?name=tip-top-supersoft-high-fibre-white-toast-bread"
+      },
+      "Woolworths": {
+        "price": 4.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=275585&name=molenberg-toast-bread-original"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5275323.png?w=384"
+  },
+  {
+    "name": "Whittaker's Creamy Caramel 33% Cocoa Milk Chocolate",
+    "prices": {
+      "New World": {
+        "price": 7.69,
+        "link": "https://www.newworld.co.nz/shop/product/5009655_ea_000nw?name=whittaker%27s-creamy-caramel-33%25-cocoa-milk-chocolate-block"
+      },
+      "Pak'nSave": {
+        "price": 6.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5009655_ea_000pns?name=whittaker%27s-creamy-caramel-33%25-cocoa-milk-chocolate-block"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5009655.png?w=384"
+  },
+  {
+    "name": "Meadow Fresh Traditional Sour Cream",
+    "prices": {
+      "New World": {
+        "price": 4.19,
+        "link": "https://www.newworld.co.nz/shop/product/5027140_ea_000nw?name=meadow-fresh-traditional-sour-cream"
+      },
+      "Pak'nSave": {
+        "price": 3.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5027140_ea_000pns?name=meadow-fresh-traditional-sour-cream"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=135344&name=fresh-vegetable-carrots"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5027140.png?w=384"
+  },
+  {
+    "name": "Pams Baby Rocket",
+    "prices": {
+      "New World": {
+        "price": 4.79,
+        "link": "https://www.newworld.co.nz/shop/product/5040463_ea_000nw?name=pams-baby-rocket"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5040463_ea_000pns?name=pams-baby-rocket"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040463.png?w=384"
+  },
+  {
+    "name": "Philadelphia Original Spreadable Cream Cheese",
+    "prices": {
+      "New World": {
+        "price": 5.99,
+        "link": "https://www.newworld.co.nz/shop/product/5026161_ea_000nw?name=philadelphia-original-spreadable-cream-cheese"
+      },
+      "Pak'nSave": {
+        "price": 5.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5026161_ea_000pns?name=philadelphia-original-spreadable-cream-cheese"
+      },
+      "Woolworths": {
+        "price": 4.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282770&name=woolworths-cream-fresh"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5026161.png?w=384"
+  },
+  {
+    "name": "Red Kiwifruit",
+    "prices": {
+      "New World": {
+        "price": 4.99,
+        "link": "https://www.newworld.co.nz/shop/product/5252705_ea_000nw?name=-red-kiwifruit"
+      },
+      "Pak'nSave": {
+        "price": 4.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5252705_ea_000pns?name=-red-kiwifruit"
+      },
+      "Woolworths": {
+        "price": 2.39,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281197&name=fresh-vegetable-capsicum-red"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5252705.png?w=384"
+  },
+  {
+    "name": "Sanitarium So Good Unsweetened Almond Milk UHT",
+    "prices": {
+      "New World": {
+        "price": 3.49,
+        "link": "https://www.newworld.co.nz/shop/product/5030647_ea_000nw?name=sanitarium-so-good-unsweetened-almond-milk-uht"
+      },
+      "Pak'nSave": {
+        "price": 2.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5030647_ea_000pns?name=sanitarium-so-good-unsweetened-almond-milk-uht"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5030647.png?w=384"
+  },
+  {
+    "name": "Hellers Manuka Smoked Streaky Bacon",
+    "prices": {
+      "New World": {
+        "price": 6.89,
+        "link": "https://www.newworld.co.nz/shop/product/5203294_ea_000nw?name=hellers-manuka-smoked-streaky-bacon"
+      },
+      "Pak'nSave": {
+        "price": 4.19,
+        "link": "https://www.paknsave.co.nz/shop/product/5011576_ea_000pns?name=beehive-shoulder-bacon"
+      },
+      "Woolworths": {
+        "price": 19.8,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=97999&name=grandpas-streaky-bacon"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5203294.png?w=384"
+  },
+  {
+    "name": "Pams Spinach",
+    "prices": {
+      "New World": {
+        "price": 4.99,
+        "link": "https://www.newworld.co.nz/shop/product/5040743_ea_000nw?name=pams-spinach"
+      },
+      "Pak'nSave": {
+        "price": 4.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5040743_ea_000pns?name=pams-spinach"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5040743.png?w=384"
+  },
+  {
+    "name": "Pams Plant Based Unsweetened Almond Milk",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5029021_ea_000nw?name=pams-plant-based-unsweetened-almond-milk"
+      },
+      "Pak'nSave": {
+        "price": 3.39,
+        "link": "https://www.paknsave.co.nz/shop/product/5029021_ea_000pns?name=pams-plant-based-unsweetened-almond-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282769&name=woolworths-milk-lite"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5029021.png?w=384"
+  },
+  {
+    "name": "Fancy Green Lettuce",
+    "prices": {
+      "New World": {
+        "price": 2.99,
+        "link": "https://www.newworld.co.nz/shop/product/5047010_ea_000nw?name=-fancy-green-lettuce"
+      },
+      "Pak'nSave": {
+        "price": 1.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5047010_ea_000pns?name=-fancy-green-lettuce"
+      },
+      "Woolworths": {
+        "price": 2.8,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=194870&name=leaderbrand-lettuce-crispy-iceberg"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5047010.png?w=384"
+  },
+  {
+    "name": "Griffin's Toffee Pops Original Chocolate Biscuits",
+    "prices": {
+      "New World": {
+        "price": 5.69,
+        "link": "https://www.newworld.co.nz/shop/product/5010453_ea_000nw?name=griffin%27s-toffee-pops-original-chocolate-biscuits"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5010453_ea_000pns?name=griffin%27s-toffee-pops-original-chocolate-biscuits"
+      },
+      "Woolworths": {
+        "price": 4.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=275585&name=molenberg-toast-bread-original"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5010453.png?w=384"
+  },
+  {
+    "name": "Fresh 'n Fruity Vanilla Bean Yoghurt",
+    "prices": {
+      "New World": {
+        "price": 6.99,
+        "link": "https://www.newworld.co.nz/shop/product/5018461_ea_000nw?name=fresh-%27n-fruity-vanilla-bean-yoghurt"
+      },
+      "Pak'nSave": {
+        "price": 4.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5018461_ea_000pns?name=fresh-%27n-fruity-vanilla-bean-yoghurt"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=135344&name=fresh-vegetable-carrots"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5018461.png?w=384"
+  },
+  {
+    "name": "Mother Earth Roasted & Lightly Salted Cashews",
+    "prices": {
+      "New World": {
+        "price": 4.49,
+        "link": "https://www.newworld.co.nz/shop/product/5015399_ea_000nw?name=mother-earth-roasted--lightly-salted-cashews"
+      },
+      "Pak'nSave": {
+        "price": 1.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5005783_ea_000pns?name=pams-ready-salted-potato-chips"
+      },
+      "Woolworths": {
+        "price": 7.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=827847&name=woolworths-butter-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5015399.png?w=384"
+  },
+  {
+    "name": "Galaxy Creamy Blue Cheese",
+    "prices": {
+      "New World": {
+        "price": 5.79,
+        "link": "https://www.newworld.co.nz/shop/product/5026088_ea_000nw?name=galaxy-creamy-blue-cheese"
+      },
+      "Pak'nSave": {
+        "price": 4.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5026088_ea_000pns?name=galaxy-creamy-blue-cheese"
+      },
+      "Woolworths": {
+        "price": 11.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5026088.png?w=384"
+  },
+  {
+    "name": "Whittaker's Chunks Creamy Milk Chocolate Bar",
+    "prices": {
+      "New World": {
+        "price": 2.09,
+        "link": "https://www.newworld.co.nz/shop/product/5009823_ea_000nw?name=whittaker%27s-chunks-creamy-milk-chocolate-bar"
+      },
+      "Pak'nSave": {
+        "price": 1.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5009823_ea_000pns?name=whittaker%27s-chunks-creamy-milk-chocolate-bar"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282769&name=woolworths-milk-lite"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5009823.png?w=384"
+  },
+  {
+    "name": "Snacka Changi Chips Kettle Fried Sour Cream Chive Onion Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 2.9,
+        "link": "https://www.newworld.co.nz/shop/product/5283867_ea_000nw?name=snacka-changi-chips-kettle-fried-sour-cream-chive-onion-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 4.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5269376_ea_000pns?name=snacka-changi-chips-salted-kettle-fried-potato-chips"
+      },
+      "Woolworths": {
+        "price": 4.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282770&name=woolworths-cream-fresh"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5283867.png?w=384"
+  },
+  {
+    "name": "Gopala Natural Full Cream Yoghurt",
+    "prices": {
+      "New World": {
+        "price": 4.79,
+        "link": "https://www.newworld.co.nz/shop/product/5007217_ea_000nw?name=gopala-natural-full-cream-yoghurt"
+      },
+      "Pak'nSave": {
+        "price": 3.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5007217_ea_000pns?name=gopala-natural-full-cream-yoghurt"
+      },
+      "Woolworths": {
+        "price": 4.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282770&name=woolworths-cream-fresh"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5007217.png?w=384"
+  },
+  {
+    "name": "Huntley & Palmers Original Cream Crackers",
+    "prices": {
+      "New World": {
+        "price": 3.29,
+        "link": "https://www.newworld.co.nz/shop/product/5004670_ea_000nw?name=huntley--palmers-original-cream-crackers"
+      },
+      "Pak'nSave": {
+        "price": 3.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5004670_ea_000pns?name=huntley--palmers-original-cream-crackers"
+      },
+      "Woolworths": {
+        "price": 4.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282770&name=woolworths-cream-fresh"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5004670.png?w=384"
+  },
+  {
+    "name": "Heartland Maple Bacon Old-Fashioned Wave Cut Chips",
+    "prices": {
+      "New World": {
+        "price": 3.19,
+        "link": "https://www.newworld.co.nz/shop/product/5234250_ea_000nw?name=heartland-maple-bacon-old-fashioned-wave-cut-chips"
+      },
+      "Pak'nSave": {
+        "price": 2.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5046440_ea_000pns?name=-fresh-cut-lettuce"
+      },
+      "Woolworths": {
+        "price": 19.8,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=97999&name=grandpas-streaky-bacon"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5234250.png?w=384"
+  },
+  {
+    "name": "Whittaker's Peanut Slab Milk Chocolate Bar",
+    "prices": {
+      "New World": {
+        "price": 2.09,
+        "link": "https://www.newworld.co.nz/shop/product/5010538_ea_000nw?name=whittaker%27s-peanut-slab-milk-chocolate-bar"
+      },
+      "Pak'nSave": {
+        "price": 4.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5003430_ea_000pns?name=whittaker%27s-peanut-slab-milk-chocolate-bar"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282769&name=woolworths-milk-lite"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5010538.png?w=384"
+  },
+  {
+    "name": "Pams Tasty Grated Cheese",
+    "prices": {
+      "New World": {
+        "price": 8.89,
+        "link": "https://www.newworld.co.nz/shop/product/5007359_ea_000nw?name=pams-tasty-grated-cheese"
+      },
+      "Pak'nSave": {
+        "price": 8.89,
+        "link": "https://www.paknsave.co.nz/shop/product/5007359_ea_000pns?name=pams-tasty-grated-cheese"
+      },
+      "Woolworths": {
+        "price": 11.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5007359.png?w=384"
+  },
+  {
+    "name": "Copper Kettle Vintage Cheddar & Red Onion Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 4.99,
+        "link": "https://www.newworld.co.nz/shop/product/5015078_ea_000nw?name=copper-kettle-vintage-cheddar--red-onion-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 1.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5046503_ea_000pns?name=-red-capsicum"
+      },
+      "Woolworths": {
+        "price": 2.39,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281197&name=fresh-vegetable-capsicum-red"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5015078.png?w=384"
+  },
+  {
+    "name": "Nestle Milo Chocolate Malt Powder Hot or Cold Drink Bag",
+    "prices": {
+      "New World": {
+        "price": 8.39,
+        "link": "https://www.newworld.co.nz/shop/product/5004634_ea_000nw?name=nestle-milo-chocolate-malt-powder-hot-or-cold-drink-bag"
+      },
+      "Pak'nSave": {
+        "price": 6.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5004634_ea_000pns?name=nestle-milo-chocolate-malt-powder-hot-or-cold-drink-bag"
+      },
+      "Woolworths": {
+        "price": 4.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=148425&name=l-p-soft-drink-lemon-paeroa"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5004634.png?w=384"
+  },
+  {
+    "name": "Raro Favourites Sweet Navel Orange Flavoured Beverage Mix",
+    "prices": {
+      "New World": {
+        "price": 2.49,
+        "link": "https://www.newworld.co.nz/shop/product/5011818_ea_000nw?name=raro-favourites-sweet-navel-orange-flavoured-beverage-mix"
+      },
+      "Pak'nSave": {
+        "price": 1.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5011818_ea_000pns?name=raro-favourites-sweet-navel-orange-flavoured-beverage-mix"
+      },
+      "Woolworths": {
+        "price": 1.4,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188700"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5011818.png?w=384"
+  },
+  {
+    "name": "NZ Beef Eye Fillet Steak",
+    "prices": {
+      "New World": {
+        "price": 62.49,
+        "link": "https://www.newworld.co.nz/shop/product/5120787_kgm_000nw?name=-nz-beef-eye-fillet-steak"
+      },
+      "Pak'nSave": {
+        "price": 15.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5104350_kgm_000pns?name=-nz-beef-mince"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5120787.png?w=384"
+  },
+  {
+    "name": "Pringles Minis Sour Cream & Onion Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 4.49,
+        "link": "https://www.newworld.co.nz/shop/product/5248743_ea_000nw?name=pringles-minis-sour-cream--onion-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 3.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5248743_ea_000pns?name=pringles-minis-sour-cream--onion-potato-chips"
+      },
+      "Woolworths": {
+        "price": 4.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282770&name=woolworths-cream-fresh"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5248743.png?w=384"
+  },
+  {
+    "name": "Pams Fresh Ranch Slaw With Dressing",
+    "prices": {
+      "New World": {
+        "price": 4.69,
+        "link": "https://www.newworld.co.nz/shop/product/5219645_ea_000nw?name=pams-fresh-ranch-slaw-with-dressing"
+      },
+      "Pak'nSave": {
+        "price": 6.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5023660_ea_000pns?name=pams-pure-butter"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=135344&name=fresh-vegetable-carrots"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5219645.png?w=384"
+  },
+  {
+    "name": "Wattie's Crushed & Sieved Tomatoes",
+    "prices": {
+      "New World": {
+        "price": 1.99,
+        "link": "https://www.newworld.co.nz/shop/product/5015054_ea_000nw?name=wattie%27s-crushed--sieved-tomatoes"
+      },
+      "Pak'nSave": {
+        "price": 1.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5015054_ea_000pns?name=wattie%27s-crushed--sieved-tomatoes"
+      },
+      "Woolworths": {
+        "price": 5.49,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=149681&name=fresh-tomatoes-loose"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5015054.png?w=384"
+  },
+  {
+    "name": "Anchor Calci-Yum Milk With Banana Flavour",
+    "prices": {
+      "New World": {
+        "price": 1.59,
+        "link": "https://www.newworld.co.nz/shop/product/5010691_ea_000nw?name=anchor-calci-yum-milk-with-banana-flavour"
+      },
+      "Pak'nSave": {
+        "price": 1.19,
+        "link": "https://www.paknsave.co.nz/shop/product/5010691_ea_000pns?name=anchor-calci-yum-milk-with-banana-flavour"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282769&name=woolworths-milk-lite"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5010691.png?w=384"
+  },
+  {
+    "name": "Sanitarium Weet-Bix Wild Berry Bites Breakfast Cereal",
+    "prices": {
+      "New World": {
+        "price": 7.59,
+        "link": "https://www.newworld.co.nz/shop/product/5014712_ea_000nw?name=sanitarium-weet-bix-wild-berry-bites-breakfast-cereal"
+      },
+      "Pak'nSave": {
+        "price": 6.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5014712_ea_000pns?name=sanitarium-weet-bix-wild-berry-bites-breakfast-cereal"
+      },
+      "Woolworths": {
+        "price": 6,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=144607&name=fresh-fruit-berry-strawberry"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5014712.png?w=384"
+  },
+  {
+    "name": "Cadbury Creme Egg",
+    "prices": {
+      "New World": {
+        "price": 2.29,
+        "link": "https://www.newworld.co.nz/shop/product/5005470_ea_000nw?name=cadbury-creme-egg"
+      },
+      "Pak'nSave": {
+        "price": 5.09,
+        "link": "https://www.paknsave.co.nz/shop/product/5249650_ea_000pns?name=cadbury-dairy-milk-dairy-milk-chocolate-block"
+      },
+      "Woolworths": {
+        "price": 1,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=253326&name=cadbury-creme-egg"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5005470.png?w=384"
+  },
+  {
+    "name": "Wattie's Peaches Sliced In Clear Fruit Juice",
+    "prices": {
+      "New World": {
+        "price": 2.79,
+        "link": "https://www.newworld.co.nz/shop/product/5002314_ea_000nw?name=wattie%27s-peaches-sliced-in-clear-fruit-juice"
+      },
+      "Pak'nSave": {
+        "price": 2.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5002314_ea_000pns?name=wattie%27s-peaches-sliced-in-clear-fruit-juice"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5002314.png?w=384"
+  },
+  {
+    "name": "Red Plums",
+    "prices": {
+      "New World": {
+        "price": 9.99,
+        "link": "https://www.newworld.co.nz/shop/product/5046650_kgm_000nw?name=-red-plums"
+      },
+      "Pak'nSave": {
+        "price": 4.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5040098_kgm_000pns?name=-loose-red-tomatoes"
+      },
+      "Woolworths": {
+        "price": 2.39,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=281197&name=fresh-vegetable-capsicum-red"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5046650.png?w=384"
+  },
+  {
+    "name": "Pams Coconut Milk",
+    "prices": {
+      "New World": {
+        "price": 1.49,
+        "link": "https://www.newworld.co.nz/shop/product/5238653_ea_000nw?name=pams-coconut-milk"
+      },
+      "Pak'nSave": {
+        "price": 1.39,
+        "link": "https://www.paknsave.co.nz/shop/product/5092911_ea_000pns?name=pams-value-white-toast-fresh-sliced-bread"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5238653.png?w=384"
+  },
+  {
+    "name": "Maltesers Milk Chocolate Bag",
+    "prices": {
+      "New World": {
+        "price": 4.79,
+        "link": "https://www.newworld.co.nz/shop/product/5006349_ea_000nw?name=maltesers-milk-chocolate-bag"
+      },
+      "Pak'nSave": {
+        "price": 3.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5006349_ea_000pns?name=maltesers-milk-chocolate-bag"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5006349.png?w=384"
+  },
+  {
+    "name": "NZ Chicken Legs",
+    "prices": {
+      "New World": {
+        "price": 11.99,
+        "link": "https://www.newworld.co.nz/shop/product/5102903_kgm_000nw?name=-nz-chicken-legs"
+      },
+      "Pak'nSave": {
+        "price": 10.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5102903_kgm_000pns?name=-nz-chicken-legs"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5102903.png?w=384"
+  },
+  {
+    "name": "Fresh 'n Fruity Mixed Berry Yoghurt",
+    "prices": {
+      "New World": {
+        "price": 5.49,
+        "link": "https://www.newworld.co.nz/shop/product/5274519_ea_000nw?name=fresh-%27n-fruity-mixed-berry-yoghurt"
+      },
+      "Pak'nSave": {
+        "price": 5.19,
+        "link": "https://www.paknsave.co.nz/shop/product/5274519_ea_000pns?name=fresh-%27n-fruity-mixed-berry-yoghurt"
+      },
+      "Woolworths": {
+        "price": 2.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=135344&name=fresh-vegetable-carrots"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5274519.png?w=384"
+  },
+  {
+    "name": "Delmaine Crushed Italian Tomatoes In Thick Tomato Juice",
+    "prices": {
+      "New World": {
+        "price": 2.49,
+        "link": "https://www.newworld.co.nz/shop/product/5011693_ea_000nw?name=delmaine-crushed-italian-tomatoes-in-thick-tomato-juice"
+      },
+      "Pak'nSave": {
+        "price": 4.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5040098_kgm_000pns?name=-loose-red-tomatoes"
+      },
+      "Woolworths": {
+        "price": 0.92,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=311488&name=essentials-diced-tomatoes"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5011693.png?w=384"
+  },
+  {
+    "name": "Mainland Buttersoft Salted Reduced Spreadable Butter",
+    "prices": {
+      "New World": {
+        "price": 10.99,
+        "link": "https://www.newworld.co.nz/shop/product/5013508_ea_000nw?name=mainland-buttersoft-salted-reduced-spreadable-butter"
+      },
+      "Pak'nSave": {
+        "price": 8.59,
+        "link": "https://www.paknsave.co.nz/shop/product/5013505_ea_000pns?name=mainland-salted-buttersoft-spreadable-butter"
+      },
+      "Woolworths": {
+        "price": 7.19,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=827847&name=woolworths-butter-salted"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5013508.png?w=384"
+  },
+  {
+    "name": "Fresh Bluff Salmon Fillets Skin On Bone In",
+    "prices": {
+      "New World": {
+        "price": 54.99,
+        "link": "https://www.newworld.co.nz/shop/product/5105409_kgm_000nw?name=-fresh-bluff-salmon-fillets-skin-on-bone-in"
+      },
+      "Pak'nSave": {
+        "price": 48.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5105409_kgm_000pns?name=-fresh-bluff-salmon-fillets-skin-on-bone-in"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5105409.png?w=384"
+  },
+  {
+    "name": "Pams Sour Cream & Chives Flavour Potato Chips",
+    "prices": {
+      "New World": {
+        "price": 1.89,
+        "link": "https://www.newworld.co.nz/shop/product/5006272_ea_000nw?name=pams-sour-cream--chives-flavour-potato-chips"
+      },
+      "Pak'nSave": {
+        "price": 6.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5023660_ea_000pns?name=pams-pure-butter"
+      },
+      "Woolworths": {
+        "price": 4.5,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282770&name=woolworths-cream-fresh"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5006272.png?w=384"
+  },
+  {
+    "name": "Tiger Skin Mini Sticks",
+    "prices": {
+      "New World": {
+        "price": 4.19,
+        "link": "https://www.newworld.co.nz/shop/product/5106015_ea_000nw?name=-tiger-skin-mini-sticks"
+      },
+      "Pak'nSave": {
+        "price": 3.49,
+        "link": "https://www.paknsave.co.nz/shop/product/5202437_ea_000pns?name=avalanche-caramel-latte-coffee-sticks"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5106015.png?w=384"
+  },
+  {
+    "name": "Pams Edam Cheese",
+    "prices": {
+      "New World": {
+        "price": 7.89,
+        "link": "https://www.newworld.co.nz/shop/product/5007356_ea_000nw?name=pams-edam-cheese"
+      },
+      "Pak'nSave": {
+        "price": 11.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5268694_ea_000pns?name=pams-edam-cheese"
+      },
+      "Woolworths": {
+        "price": 11.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5007356.png?w=384"
+  },
+  {
+    "name": "Mainland Parmesan Cheese",
+    "prices": {
+      "New World": {
+        "price": 8.49,
+        "link": "https://www.newworld.co.nz/shop/product/5013767_ea_000nw?name=mainland-parmesan-cheese"
+      },
+      "Pak'nSave": {
+        "price": 7.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5013767_ea_000pns?name=mainland-parmesan-cheese"
+      },
+      "Woolworths": {
+        "price": 11.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5013767.png?w=384"
+  },
+  {
+    "name": "Pams Blueberries",
+    "prices": {
+      "New World": {
+        "price": 12.39,
+        "link": "https://www.newworld.co.nz/shop/product/5083327_ea_000nw?name=pams-blueberries"
+      },
+      "Pak'nSave": {
+        "price": 11.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5083327_ea_000pns?name=pams-blueberries"
+      },
+      "Woolworths": {
+        "price": 4.2,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5083327.png?w=384"
+  },
+  {
+    "name": "NZ Chicken Necks",
+    "prices": {
+      "New World": {
+        "price": 5.99,
+        "link": "https://www.newworld.co.nz/shop/product/5100060_kgm_000nw?name=-nz-chicken-necks"
+      },
+      "Pak'nSave": {
+        "price": 7.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5100060_kgm_000pns?name=-nz-chicken-necks"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5100060.png?w=384"
+  },
+  {
+    "name": "Pams Lite UHT Milk",
+    "prices": {
+      "New World": {
+        "price": 2.19,
+        "link": "https://www.newworld.co.nz/shop/product/5004771_ea_000nw?name=pams-lite-uht-milk"
+      },
+      "Pak'nSave": {
+        "price": 2.09,
+        "link": "https://www.paknsave.co.nz/shop/product/5004771_ea_000pns?name=pams-lite-uht-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5004771.png?w=384"
+  },
+  {
+    "name": "Mexicano Cheese Corn Chips",
+    "prices": {
+      "New World": {
+        "price": 4.49,
+        "link": "https://www.newworld.co.nz/shop/product/5018365_ea_000nw?name=mexicano-cheese-corn-chips"
+      },
+      "Pak'nSave": {
+        "price": 3.89,
+        "link": "https://www.paknsave.co.nz/shop/product/5018365_ea_000pns?name=mexicano-cheese-corn-chips"
+      },
+      "Woolworths": {
+        "price": 11.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5018365.png?w=384"
+  },
+  {
+    "name": "Fresh 'n Fruity Fruit of the Forest Yoghurt",
+    "prices": {
+      "New World": {
+        "price": 5.49,
+        "link": "https://www.newworld.co.nz/shop/product/5274512_ea_000nw?name=fresh-%27n-fruity-fruit-of-the-forest-yoghurt"
+      },
+      "Pak'nSave": {
+        "price": 5.19,
+        "link": "https://www.paknsave.co.nz/shop/product/5274512_ea_000pns?name=fresh-%27n-fruity-fruit-of-the-forest-yoghurt"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5274512.png?w=384"
+  },
+  {
+    "name": "Grandpa's Meat & Bacon Co. Manuka Smoked Streaky Bacon",
+    "prices": {
+      "New World": {
+        "price": 24.79,
+        "link": "https://www.newworld.co.nz/shop/product/5033085_ea_000nw?name=grandpa%27s-meat--bacon-co.-manuka-smoked-streaky-bacon"
+      },
+      "Pak'nSave": {
+        "price": 14.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5033085_ea_000pns?name=grandpa%27s-meat--bacon-co.-manuka-smoked-streaky-bacon"
+      },
+      "Woolworths": {
+        "price": 19.8,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=97999&name=grandpas-streaky-bacon"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5033085.png?w=384"
+  },
+  {
+    "name": "Maggi Creme Of Chicken Soup",
+    "prices": {
+      "New World": {
+        "price": 1.59,
+        "link": "https://www.newworld.co.nz/shop/product/5009707_ea_000nw?name=maggi-creme-of-chicken-soup"
+      },
+      "Pak'nSave": {
+        "price": 0.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5009707_ea_000pns?name=maggi-creme-of-chicken-soup"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5009707.png?w=384"
+  },
+  {
+    "name": "Value Standard Milk",
+    "prices": {
+      "New World": {
+        "price": 4.39,
+        "link": "https://www.newworld.co.nz/shop/product/5260709_ea_000nw?name=value-standard-milk"
+      },
+      "Pak'nSave": {
+        "price": 4.4,
+        "link": "https://www.paknsave.co.nz/shop/product/5201479_ea_000pns?name=pams-value-standard-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5260709.png?w=384"
+  },
+  {
+    "name": "Pams Standard Milk",
+    "prices": {
+      "New World": {
+        "price": 2.95,
+        "link": "https://www.newworld.co.nz/shop/product/5260707_ea_000nw?name=pams-standard-milk"
+      },
+      "Pak'nSave": {
+        "price": 4.4,
+        "link": "https://www.paknsave.co.nz/shop/product/5201479_ea_000pns?name=pams-value-standard-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5260707.png?w=384"
+  },
+  {
+    "name": "Pams Sweet Temptation Tomatoes",
+    "prices": {
+      "New World": {
+        "price": 2.49,
+        "link": "https://www.newworld.co.nz/shop/product/5047405_ea_000nw?name=pams-sweet-temptation-tomatoes"
+      },
+      "Pak'nSave": {
+        "price": 6.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5023660_ea_000pns?name=pams-pure-butter"
+      },
+      "Woolworths": {
+        "price": 5.49,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=149681&name=fresh-tomatoes-loose"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5047405.png?w=384"
+  },
+  {
+    "name": "Pams Iceberg Lettuce",
+    "prices": {
+      "New World": {
+        "price": 3.29,
+        "link": "https://www.newworld.co.nz/shop/product/5252172_ea_000nw?name=pams-iceberg-lettuce"
+      },
+      "Pak'nSave": {
+        "price": 1.39,
+        "link": "https://www.paknsave.co.nz/shop/product/5092911_ea_000pns?name=pams-value-white-toast-fresh-sliced-bread"
+      },
+      "Woolworths": {
+        "price": 2.8,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=194870&name=leaderbrand-lettuce-crispy-iceberg"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5252172.png?w=384"
+  },
+  {
+    "name": "Prime Beef Mince",
+    "prices": {
+      "New World": {
+        "price": 19.99,
+        "link": "https://www.newworld.co.nz/shop/product/5131155_kgm_000nw?name=-prime-beef-mince"
+      },
+      "Pak'nSave": {
+        "price": 12.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5125914_kgm_000pns?name=-nz-beef-prime-mince"
+      },
+      "Woolworths": {
+        "price": 18.9,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5131155.png?w=384"
+  },
+  {
+    "name": "Pams Lite Milk",
+    "prices": {
+      "New World": {
+        "price": 4.99,
+        "link": "https://www.newworld.co.nz/shop/product/5260712_ea_000nw?name=pams-lite-milk"
+      },
+      "Pak'nSave": {
+        "price": 4.4,
+        "link": "https://www.paknsave.co.nz/shop/product/5201487_ea_000pns?name=pams-value-lite-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5260712.png?w=384"
+  },
+  {
+    "name": "Meadow Fresh Original Fresh Milk",
+    "prices": {
+      "New World": {
+        "price": 5.59,
+        "link": "https://www.newworld.co.nz/shop/product/5026262_ea_000nw?name=meadow-fresh-original-fresh-milk"
+      },
+      "Pak'nSave": {
+        "price": 4.4,
+        "link": "https://www.paknsave.co.nz/shop/product/5201487_ea_000pns?name=pams-value-lite-milk"
+      },
+      "Woolworths": {
+        "price": 3.3,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188169"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5026262.png?w=384"
+  },
+  {
+    "name": "Value Trim Milk",
+    "prices": {
+      "New World": {
+        "price": 4.39,
+        "link": "https://www.newworld.co.nz/shop/product/5260718_ea_000nw?name=value-trim-milk"
+      },
+      "Pak'nSave": {
+        "price": 4.4,
+        "link": "https://www.paknsave.co.nz/shop/product/5201486_ea_000pns?name=pams-value-trim-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5260718.png?w=384"
+  },
+  {
+    "name": "NZ Premium Beef Mince",
+    "prices": {
+      "New World": {
+        "price": 23.99,
+        "link": "https://www.newworld.co.nz/shop/product/5101189_kgm_000nw?name=-nz-premium-beef-mince"
+      },
+      "Pak'nSave": {
+        "price": 21.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5101189_kgm_000pns?name=-nz-premium-beef-mince"
+      },
+      "Woolworths": {
+        "price": 12.9,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=73034&name=woolworths-nz-chicken-breast-skinless-boneless"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5101189.png?w=384"
+  },
+  {
+    "name": "Coca-Cola Zero Sugar Soft Drink",
+    "prices": {
+      "New World": {
+        "price": 4.69,
+        "link": "https://www.newworld.co.nz/shop/product/5306535_ea_000nw?name=coca-cola-zero-sugar-soft-drink"
+      },
+      "Pak'nSave": {
+        "price": 4.59,
+        "link": "https://www.paknsave.co.nz/shop/product/5001903_ea_000pns?name=coca-cola-soft-drink"
+      },
+      "Woolworths": {
+        "price": 5.29,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=229608&name=coca-cola-soft-drink-zero-sugar"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5306535.png?w=384"
+  },
+  {
+    "name": "Value White Tortillas",
+    "prices": {
+      "New World": {
+        "price": 4.49,
+        "link": "https://www.newworld.co.nz/shop/product/5094509_ea_000nw?name=value-white-tortillas"
+      },
+      "Pak'nSave": {
+        "price": 3.5,
+        "link": "https://www.paknsave.co.nz/shop/product/5094509_ea_000pns?name=value-white-tortillas"
+      },
+      "Woolworths": {
+        "price": 4.09,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188100"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5094509.png?w=384"
+  },
+  {
+    "name": "Fresh 'n Fruity Berry Favourites Yoghurt",
+    "prices": {
+      "New World": {
+        "price": 5.49,
+        "link": "https://www.newworld.co.nz/shop/product/5274520_ea_000nw?name=fresh-%27n-fruity-berry-favourites-yoghurt"
+      },
+      "Pak'nSave": {
+        "price": 8.19,
+        "link": "https://www.paknsave.co.nz/shop/product/5009324_ea_000pns?name=fresh-%27n-fruity-berry-favourites-yoghurt"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5274520.png?w=384"
+  },
+  {
+    "name": "Fresh 'n Fruity Simply Apricot Yoghurt",
+    "prices": {
+      "New World": {
+        "price": 6.99,
+        "link": "https://www.newworld.co.nz/shop/product/5010417_ea_000nw?name=fresh-%27n-fruity-simply-apricot-yoghurt"
+      },
+      "Pak'nSave": {
+        "price": 5.19,
+        "link": "https://www.paknsave.co.nz/shop/product/5275983_ea_000pns?name=fresh-%27n-fruity-simply-apricot-yoghurt"
+      },
+      "Woolworths": {
+        "price": 3,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=354360&name=fresh-avocado-pre-ripened"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5010417.png?w=384"
+  },
+  {
+    "name": "Cadbury Dairy Milk Marshmallow Eggs",
+    "prices": {
+      "New World": {
+        "price": 4.99,
+        "link": "https://www.newworld.co.nz/shop/product/5003536_ea_000nw?name=cadbury-dairy-milk-marshmallow-eggs"
+      },
+      "Pak'nSave": {
+        "price": 4.4,
+        "link": "https://www.paknsave.co.nz/shop/product/5201487_ea_000pns?name=pams-value-lite-milk"
+      },
+      "Woolworths": {
+        "price": 1,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=253326&name=cadbury-creme-egg"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5003536.png?w=384"
+  },
+  {
+    "name": "Whittaker's Hokey Pokey Crunch 33% Cocoa Milk Chocolate",
+    "prices": {
+      "New World": {
+        "price": 7.69,
+        "link": "https://www.newworld.co.nz/shop/product/5287053_ea_000nw?name=whittaker%27s-hokey-pokey-crunch-33%25-cocoa-milk-chocolate-block"
+      },
+      "Pak'nSave": {
+        "price": 4.4,
+        "link": "https://www.paknsave.co.nz/shop/product/5201479_ea_000pns?name=pams-value-standard-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5287053.png?w=384"
+  },
+  {
+    "name": "Lewis Road Creamery Organic Homogenised Milk",
+    "prices": {
+      "New World": {
+        "price": 7.49,
+        "link": "https://www.newworld.co.nz/shop/product/5027127_ea_000nw?name=lewis-road-creamery-organic-homogenised-milk"
+      },
+      "Pak'nSave": {
+        "price": 4.4,
+        "link": "https://www.paknsave.co.nz/shop/product/5201479_ea_000pns?name=pams-value-standard-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282769&name=woolworths-milk-lite"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5027127.png?w=384"
+  },
+  {
+    "name": "Fresh Up Apple & Nectarine Fruit Juice Drink",
+    "prices": {
+      "New World": {
+        "price": 3.49,
+        "link": "https://www.newworld.co.nz/shop/product/5206406_ea_000nw?name=fresh-up-apple--nectarine-fruit-juice-drink"
+      },
+      "Pak'nSave": {
+        "price": 3.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5206406_ea_000pns?name=fresh-up-apple--nectarine-fruit-juice-drink"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5206406.png?w=384"
+  },
+  {
+    "name": "San Remo Traditional Gnocchi",
+    "prices": {
+      "New World": {
+        "price": 2.99,
+        "link": "https://www.newworld.co.nz/shop/product/5256396_ea_000nw?name=san-remo-traditional-gnocchi"
+      },
+      "Pak'nSave": {
+        "price": 2.79,
+        "link": "https://www.paknsave.co.nz/shop/product/5256396_ea_000pns?name=san-remo-traditional-gnocchi"
+      },
+      "Woolworths": {
+        "price": 6.8,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/80842"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5256396.png?w=384"
+  },
+  {
+    "name": "Real Foods Corn Thins Original Crispbread",
+    "prices": {
+      "New World": {
+        "price": 2.99,
+        "link": "https://www.newworld.co.nz/shop/product/5025904_ea_000nw?name=real-foods-corn-thins-original-crispbread"
+      },
+      "Pak'nSave": {
+        "price": 2.69,
+        "link": "https://www.paknsave.co.nz/shop/product/5025904_ea_000pns?name=real-foods-corn-thins-original-crispbread"
+      },
+      "Woolworths": {
+        "price": 1.4,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188700"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5025904.png?w=384"
+  },
+  {
+    "name": "Cadbury Dairy Milk Marvelous Creations Jelly Popping Candy Beanies Chocolate",
+    "prices": {
+      "New World": {
+        "price": 3.99,
+        "link": "https://www.newworld.co.nz/shop/product/5249665_ea_000nw?name=cadbury-dairy-milk-marvelous-creations-jelly-popping-candy-beanies-chocolate-block"
+      },
+      "Pak'nSave": {
+        "price": 4.4,
+        "link": "https://www.paknsave.co.nz/shop/product/5201479_ea_000pns?name=pams-value-standard-milk"
+      },
+      "Woolworths": {
+        "price": 6.75,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=282768&name=woolworths-milk-standard"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5249665.png?w=384"
+  },
+  {
+    "name": "Tip Top Cafe No Added Sugar Spicy Fruit Bread",
+    "prices": {
+      "New World": {
+        "price": 6.49,
+        "link": "https://www.newworld.co.nz/shop/product/5253966_ea_000nw?name=tip-top-cafe-no-added-sugar-spicy-fruit-bread"
+      },
+      "Pak'nSave": {
+        "price": 2.29,
+        "link": "https://www.paknsave.co.nz/shop/product/5013058_ea_000pns?name=sunny-crust-white-toast-bread"
+      },
+      "Woolworths": {
+        "price": 3.69,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=133211&name=fresh-fruit-bananas-yellow"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5253966.png?w=384"
+  },
+  {
+    "name": "Anchor Original Soft Light Spreadable Dairy Blend",
+    "prices": {
+      "New World": {
+        "price": 6.99,
+        "link": "https://www.newworld.co.nz/shop/product/5017422_ea_000nw?name=anchor-original-soft-light-spreadable-dairy-blend"
+      },
+      "Pak'nSave": {
+        "price": 6.89,
+        "link": "https://www.paknsave.co.nz/shop/product/5001313_ea_000pns?name=anchor-original-soft-spreadable-dairy-blend"
+      },
+      "Woolworths": {
+        "price": 4.79,
+        "link": "https://www.woolworths.co.nz/shop/productdetails?stockcode=148425&name=l-p-soft-drink-lemon-paeroa"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5017422.png?w=384"
+  },
+  {
+    "name": "McCain Peas Corn & Carrots Mixed Vegetables",
+    "prices": {
+      "New World": {
+        "price": 3.89,
+        "link": "https://www.newworld.co.nz/shop/product/5012157_ea_000nw?name=mccain-peas-corn--carrots-mixed-vegetables"
+      },
+      "Pak'nSave": {
+        "price": 4.99,
+        "link": "https://www.paknsave.co.nz/shop/product/5012157_ea_000pns?name=mccain-peas-corn--carrots-mixed-vegetables"
+      },
+      "Woolworths": {
+        "price": 1.4,
+        "link": "https://www.woolworths.co.nz/shop/productgroup/188700"
+      }
+    },
+    "image_url": "https://a.fsimg.co.nz/product/retail/fan/image/400x400/5012157.png?w=384"
+  }
+]
