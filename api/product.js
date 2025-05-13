@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { getAllProducts, getProductByName } = require("../database/ProductDAO");
+const { getAllProducts, getProductByName, getAllCategories } = require("../database/ProductDAO");
 
 
 router.get("/", async (req, res) => {
@@ -8,10 +8,18 @@ router.get("/", async (req, res) => {
     res.json(data);
 });
 
+router.get("/categories", async (req, res) => {
+    const data = await getAllCategories();
+    console.log(data);
+    if (!data) return res.status(404).json({ error: "Not found" });
+    console.log(data);
+    res.json(data);
+});
+
+
 router.get("/:name", async (req, res) => {
     const data = await getProductByName(req.params.name);
     if (!data) return res.status(404).json({ error: "Not found" });
     res.json(data);
 });
-
 module.exports = router;

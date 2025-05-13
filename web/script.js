@@ -17,11 +17,16 @@ function searchProducts() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("Trying to fetch products...");
     fetch("/api/products")
         .then((response) => response.json())
         .then((data) => displayProducts(data))
         .catch((error) => console.error("Error loading JSON:", error));
+    
+    fetch("/api/products/categories")
+    .then((response) => response.json())
+    .then((data) =>{
+      console.log("Categories:", data);
+    })
 });
 
 function displayProducts(data) {

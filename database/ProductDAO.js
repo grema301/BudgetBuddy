@@ -21,5 +21,12 @@ async function getProductByName(name) {
     `;
     return result;
 }
+async function getAllCategories() {
+    const result  = await sql`
+        SELECT *  FROM public.Category
+    `;
+    console.log(result);
+    return result;
+}
 
-module.exports = { getAllProducts, getProductByName };
+module.exports = { getAllProducts, getProductByName, getAllCategories };
