@@ -79,7 +79,7 @@
                 "link": "https://www.newworld.co.nz/shop/product/5028889_ea_000nw?name=-telegraph-cucumber"
             },
             "Pak'nSave": {
-                "price": 2.99,
+                "price": "2.99",
                 "link": "https://www.paknsave.co.nz/shop/product/5028889_ea_000pns?name=-telegraph-cucumber"
             },
             "Woolworths": {
@@ -403,7 +403,7 @@
                 "link": "https://www.newworld.co.nz/shop/product/5010717_ea_000nw?name=bluebird-originals-ready-salted-potato-chips"
             },
             "Pak'nSave": {
-                "price": "5.00",
+                "price": "5..00",
                 "link": "https://www.paknsave.co.nz/shop/product/5010717_ea_000pns?name=bluebird-originals-ready-salted-potato-chips"
             },
             "Woolworths": {
