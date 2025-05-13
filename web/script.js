@@ -18,7 +18,7 @@ function searchProducts() {
 
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Trying to fetch products...");
-    fetch("/products")
+    fetch("/api/products")
         .then((response) => response.json())
         .then((data) => displayProducts(data))
         .catch((error) => console.error("Error loading JSON:", error));
@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
 function displayProducts(data) {
     const productGrid = document.getElementById("product-grid");
     productGrid.innerHTML = "";
-
     //Format the queried data to match the expected structure
     // Group data by product_id
     const grouped = {};
@@ -56,8 +55,6 @@ function displayProducts(data) {
 
     // Convert grouped object back to array
     const products = Object.values(grouped);
-    console.log(products);
-    console.log("Products after grouping:", products);
 
     products.forEach((product) => {
         const { name, prices, image_url } = product;
@@ -77,8 +74,6 @@ function displayProducts(data) {
         if (filteredPrices.length < 2) return; // Ensure at least 2 valid prices remain
 
         let lowestPrice = Math.min(...filteredPrices);
-
-        console.log(filteredPrices);
         let priceDisplay = Object.entries(prices)
             .map(([store, storeData]) => {
                 let numericPrice = parseFloat(storeData.price);
@@ -92,7 +87,7 @@ function displayProducts(data) {
         const productCard = document.createElement("div");
         productCard.classList.add("product-card");
         productCard.innerHTML = `
-        <a href="product.html?name=${encodeURIComponent(name)}" class="product-page">
+        <a href="/product/${name}" class="product-page">
           <img src="${image_url}" alt="${name}">
           <div class="product-name">${name}</div>
         </a>

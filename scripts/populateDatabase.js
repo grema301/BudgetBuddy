@@ -4,17 +4,15 @@ const {
     insertProduct,
     insertPrice, 
     updateProductCategory,
-    addToCategory,
+    addToCategory
 } = require("../database/populateDAO");
-const { getProductByName } = require("../database/ProductDAO");
 const aiCat = require("../aiCategorizer.js");
 
 const rawData = fs.readFileSync("cleaned_supermarket_data.json", "utf8");
 const products = JSON.parse(rawData);
 
 async function populate() {
-    for (let i = 0; i < products.length; i++) {
-        const product = products[i];
+    for (const product of products) {
         const supermarkets = Object.keys(product.prices);
         for (const name of supermarkets) {
             await insertSupermarket(name);
@@ -51,8 +49,7 @@ async function populate() {
 }
 
 async function updateCategory(){
-    for(let i = 50; i < products.length; i++){
-        const product = products[i];
+    for(let product of products){
         let tryNums = 0; //Number of attempts to categorize the product
         let category = null;
         while(tryNums < 5) {

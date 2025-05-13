@@ -1,21 +1,37 @@
+
 document.addEventListener("DOMContentLoaded", () => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const productName = urlParams.get("name");
+    const productName = window.location.href.split("/").pop().split("?")[0];
+    console.log("Product Name:", productName);
 
     if (!productName) {
         document.getElementById("product-container").innerHTML = "<p>Product not found.</p>";
         return;
     }
-
-    fetch(`/products/${encodeURIComponent(productName)}`)
+    fetch(`/api/products/${encodeURIComponent(productName)}`)
         .then((response) => response.json())
         .then((data) => {
-            const product = data.productData;
+            const product = data
             if (!product) {
                 document.getElementById("product-container").innerHTML = "<p>Product not found.</p>";
                 return;
             }
-            displayProduct(product);
+            //Group data by product_id
+            const mainProduct = {
+              product_id: data[0].product_id,
+              product_name: data[0].product_name,
+              image_url: data[0].image_url,
+              description: data[0].description,
+              category_name: data[0].category_name,
+              supermarkets: []  // we'll populate this below
+            };
+          // Group by supermarket
+          data.forEach(item => {
+              mainProduct.supermarkets.push({
+                  name: item.supermarket_name,
+                  price: item.price
+              });
+          });
+            displayProduct(mainProduct);
         })
         .catch((error) => console.error("Error loading JSON:", error));
 });
@@ -23,8 +39,13 @@ document.addEventListener("DOMContentLoaded", () => {
 function displayProduct(product) {
     console.log("displayProduct called");
     console.log(product);
-    const { name, prices, image_url } = product;
-
+    const { product_name, image_url, supermarkets } = product;
+    let prices = supermarkets.map((store) => {
+        return {
+            name: store.name,
+            price: parseFloat(store.price)
+        };
+    })
     // Convert price values to numbers
     let priceArray = Object.values(prices)
         .map((storeData) => parseFloat(storeData.price))
@@ -49,11 +70,11 @@ function displayProduct(product) {
     }).join("");
 
     document.getElementById("product-container").innerHTML = `
-        <img src="${image_url}" alt="${name}">
-        <h2>${name}</h2>
+        <img src="${image_url}" alt="${product_name}">
+        <h2>${product_name}</h2>
         ${priceDisplay}
     `;
-}
+  }
 
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
