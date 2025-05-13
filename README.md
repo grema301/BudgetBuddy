@@ -10,13 +10,13 @@
     ```
  -  Create the .env file save the following to the .env file.
     ```bash
-    DATABASE_URL=postgresql://postgres.uwsuqcgdmelazpfyppsn:I98nb0x6h5L3@aws-0-us-east-2.pooler.supabase.com:6543/postgres
-   DB_HOST_SUPABASS=aws-0-us-east-2.pooler.supabase.com
-   DB_USER_SUPABASS=postgres
-   DB_PASSWORD_SUPABASS=I98nb0x6h5L3
-   DB_NAME_SUPABASS=postgres
-   DB_PORT_SUPABASS=6543
-   OPENROUTER_API_KEY=AIzaSyCh4iHsSYOApJR-uim5colcul0wFMFhiSY
+      DATABASE_URL=postgresql://postgresuwsuqcgdmelazpfyppsn:I98nb0x6h5L3@aws-0-us-east-2.pooler.supabase.com:6543/postgres
+      DB_HOST_SUPABASS=aws-0-us-east-2.pooler.supabase.com
+      DB_USER_SUPABASS=postgres
+      DB_PASSWORD_SUPABASS=I98nb0x6h5L3
+      DB_NAME_SUPABASS=postgres
+      DB_PORT_SUPABASS=6543
+      OPENROUTER_API_KEY=AIzaSyCh4iHsSYOApJR-uim5colcul0wFMFhiSY
     ```
  - To run the application 
 1.  
