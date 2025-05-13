@@ -54,12 +54,15 @@ let chatHistory = [];
 
 // Route for initial recipe suggestions
 app.post('/ai/suggest', async (req, res) => {
-    console.log('Received cart:', req.body.cart);
+  console.log('Received cart:', req.body.cart);
   const cartItems = req.body.cart.map(item => `${item.quantity} x ${item.name}`).join(', ');
   const prompt = `I have these groceries in my cart: ${cartItems}. What recipes can I make with them?`;
 
   try {
-    const response = await callOllama(prompt);
+    const response = await callGroq([
+      { role: 'system', content: 'You are a helpful cooking assistant.' },
+      { role: 'user', content: prompt }
+    ]);
     chatHistory = [{ role: 'user', content: prompt }, { role: 'assistant', content: response }];
     res.json({ response });
   } catch (err) {
@@ -74,8 +77,7 @@ app.post('/ai/chat', async (req, res) => {
   chatHistory.push({ role: 'user', content: userMessage });
 
   try {
-    const fullPrompt = chatHistory.map(m => `${m.role === 'user' ? 'User' : 'AI'}: ${m.content}`).join('\n') + '\nAI:';
-    const response = await callOllama(fullPrompt);
+    const response = await callGroq(chatHistory);
     chatHistory.push({ role: 'assistant', content: response });
     res.json({ response });
   } catch (err) {
@@ -84,30 +86,38 @@ app.post('/ai/chat', async (req, res) => {
   }
 });
 
-// Function to call local Ollama model via subprocess
-function callOllama(prompt) {
-  return new Promise((resolve, reject) => {
-    const ollama = spawn('ollama', ['run', 'llama2'], {
-      stdio: ['pipe', 'pipe', 'inherit']
-    });
+// Function to call Groq's hosted LLM
+async function callGroq(messages) {
+  const groqKey = process.env.GROQ_API_KEY;
+  const model = 'meta-llama/llama-4-scout-17b-16e-instruct'; // Or mixtral, gemma, etc.
 
-    let output = '';
-    ollama.stdout.on('data', (data) => {
-      output += data.toString();
-    });
-
-    ollama.on('error', reject);
-
-    ollama.on('close', (code) => {
-      if (code !== 0) return reject(new Error(`Ollama exited with code ${code}`));
-      resolve(output.trim());
-    });
-
-    ollama.stdin.write(prompt);
-    ollama.stdin.end();
+  console.log('Sending request to Groq:', {
+    model,
+    messages,
+    temperature: 0.7
   });
-}
 
+  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${groqKey}`
+    },
+    body: JSON.stringify({
+      model,
+      messages,
+      temperature: 0.7
+    })
+  });
+
+  if (!res.ok) {
+    const errText = await res.text();
+    throw new Error(`Groq API error: ${res.status} ${errText}`);
+  }
+
+  const data = await res.json();
+  return data.choices[0].message.content.trim();
+}
 
 
 
