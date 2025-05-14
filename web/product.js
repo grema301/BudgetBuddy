@@ -63,10 +63,10 @@ function displayProduct(product) {
 
     let priceDisplay = Object.entries(prices).map(([store, storeData]) => {
         let numericPrice = parseFloat(storeData.price);
-        console.log("Store data:", storeData);
+        console.log("Store data:", storeData.name);
         if (!filteredPrices.includes(numericPrice)) return "";
         return `<div class="price ${numericPrice === lowestPrice ? "lowest" : ""}">
-                    <span href="${storeData.link}" target="_blank">${store}: $${numericPrice.toFixed(2)}</span>
+                    <span href="${storeData.link}" target="_blank">${storeData.name}: $${numericPrice.toFixed(2)}</span>
                 </div>`;
     }).join("");
 
