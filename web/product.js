@@ -147,11 +147,18 @@ function renderCart() {
 // Toggle cart
 document.getElementById('cart-toggle').onclick = () => {
   document.getElementById('cart').classList.toggle('open');
+  if (document.getElementById('cart').classList.contains('open')) document.getElementById('cart-close').style.display = "block";
+  else document.getElementById('cart-close').style.display = "none";
 };
 
 // On page load
 window.addEventListener('DOMContentLoaded', () => {
   renderCart();
+
+  document.getElementById('cart-close').addEventListener("click", () => {
+    document.getElementById('cart').classList.remove('open');
+    document.getElementById('cart-close').style.display = "none";
+  });
 });
 
 // Send cart to server to get AI suggestions

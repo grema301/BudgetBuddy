@@ -140,7 +140,7 @@ function displayProducts(data) {
         minusBtn.addEventListener("click", (e) => {
             e.stopPropagation();
             const updated = parseInt(qtyInput.value) - 1;
-            if (updated > 1) {
+            if (updated > 0) {
               qtyInput.value = updated;
               updateQuantity(name, updated);
             } else {
