@@ -6,6 +6,7 @@ document.getElementById('clearSearch').addEventListener('click', () => {
 
 document.getElementById("searchButton").addEventListener("click", searchProducts);
 
+
 function searchProducts() {
     const searchTerm = document.getElementById("searchInput").value.toLowerCase();
     const productCards = document.querySelectorAll(".product-card");
@@ -16,6 +17,9 @@ function searchProducts() {
     });
 }
 
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
     fetch("/api/products")
         .then((response) => response.json())
@@ -24,10 +28,42 @@ document.addEventListener("DOMContentLoaded", () => {
     
     fetch("/api/products/categories")
     .then((response) => response.json())
-    .then((data) =>{
-      console.log("Categories:", data);
+    .then((data) =>{ displayCategoryList(data)
     })
 });
+
+function displayCategoryList(data){
+  const categoryList = document.getElementById("categoryList");
+  data.forEach((category) => {
+    categoryList.insertAdjacentHTML(
+      "beforeend",
+      `<div class="category-item" value="${category.category_name}">${category.category_name}</div>`
+    )
+  })
+
+  //Add event listener for each category item
+  document.getElementById("categoryList").addEventListener("click", (e) => {
+    if (e.target.classList.contains("category-item")) {
+      const selectedCategory = e.target.getAttribute("value");
+      filterProductsByCategory(selectedCategory);
+    }
+  });
+  
+
+}
+
+
+function filterProductsByCategory(category) {
+    const productCards = document.querySelectorAll(".product-card");
+    productCards.forEach((card) => {
+        const productCat = card.querySelector(".product-category").textContent;
+        if(category != "All")card.style.display = productCat === category ? "block" : "none";
+        console.log(productCat);
+        if (category === "All") {
+            card.style.display = "block";
+        }
+    });
+}
 
 function displayProducts(data) {
     const productGrid = document.getElementById("product-grid");
@@ -35,20 +71,21 @@ function displayProducts(data) {
     //Format the queried data to match the expected structure
     // Group data by product_id
     const grouped = {};
-
     data.forEach((item) => {
         const {
             product_id,
             product_name,
             image_url,
             supermarket_name,
-            price
+            price,
+            category_name
         } = item;
 
         if (!grouped[product_id]) {
             grouped[product_id] = {
                 name: product_name,
                 image_url: image_url,
+                category_name: category_name,
                 prices: {}
             };
         }
@@ -62,7 +99,7 @@ function displayProducts(data) {
     const products = Object.values(grouped);
 
     products.forEach((product) => {
-        const { name, prices, image_url } = product;
+        const { name, prices, image_url, category_name} = product;
         
         // Convert prices to numeric array, handling new JSON structure
         let priceArray = Object.values(prices)
@@ -95,6 +132,7 @@ function displayProducts(data) {
         <a href="/product/${name}" class="product-page">
           <img src="${image_url}" alt="${name}">
           <div class="product-name">${name}</div>
+          <div class="product-category" style="display: none">${category_name}</div> 
         </a>
         ${priceDisplay}
         <div class="cart-controls">
@@ -106,7 +144,7 @@ function displayProducts(data) {
           </div>
         </div>
         <div class="cart-count" data-name="${name}"></div>
-    `;
+    `;//added category tag on line 120 added that so we can filter by category without having to query the database again(refer to line 44 filterProductsByCategory(category))
 
         // Stop card click if clicking the button
         // productCard.querySelector(".add-to-cart").addEventListener("click", (e) => {
@@ -140,7 +178,7 @@ function displayProducts(data) {
         minusBtn.addEventListener("click", (e) => {
             e.stopPropagation();
             const updated = parseInt(qtyInput.value) - 1;
-            if (updated > 0) {
+            if (updated > 1) {
               qtyInput.value = updated;
               updateQuantity(name, updated);
             } else {
@@ -172,6 +210,17 @@ function displayProducts(data) {
     });
 }
 
+function displayCategories(){
+    const categorySelect = document.getElementById("category-select");
+    categorySelect.innerHTML = "";
+    const categories = ["All", "Fruits", "Vegetables", "Dairy", "Meat", "Bakery"];
+    categories.forEach((category) => {
+        const option = document.createElement("option");
+        option.value = category;
+        option.textContent = category;
+        categorySelect.appendChild(option);
+    });
+} 
 
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 

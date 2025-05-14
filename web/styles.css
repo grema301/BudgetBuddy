@@ -313,6 +313,43 @@ a:hover {
   background-color: #155ab6;
 }
 
+#categoryList{
+  display: flex;
+  align-self: center;
+  gap: 12px;
+  margin-top: 20px;
+  font-size: medium;
+  overflow: scroll;
+  width: 30%;
+  padding: 10px;
+  scrollbar-width: none;
+}
+.category-filter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.category-item{
+  background-color: rgb(44, 84, 44);
+  color: white;
+  height:30px;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  padding:10px;
+  width: 100000000px;
+  white-space: nowrap;
+}
+.category-item:hover{
+  background-color: rgb(26, 63, 26);
+}
+.categoryLabel{
+  font-size:medium;
+  color:white;
+  text-style: italic;
+}
+
 /* Responsive Search on Mobile */
 @media (max-width: 600px) {
   .search-box {
