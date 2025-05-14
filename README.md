@@ -8,17 +8,8 @@
     cd BudgetBuddy 
     npm install
     ```
- -  Create the .env file save the following to the .env file.
-    ```bash
-      DATABASE_URL=postgresql://postgresuwsuqcgdmelazpfyppsn:I98nb0x6h5L3@aws-0-us-east-2.pooler.supabase.com:6543/postgres
-      DB_HOST_SUPABASS=aws-0-us-east-2.pooler.supabase.com
-      DB_USER_SUPABASS=postgres
-      DB_PASSWORD_SUPABASS=I98nb0x6h5L3
-      DB_NAME_SUPABASS=postgres
-      DB_PORT_SUPABASS=6543
-      OPENROUTER_API_KEY=AIzaSyCh4iHsSYOApJR-uim5colcul0wFMFhiSY
-    ```
- - To run the application 
+
+ - To run the application on own machine
 1.  
    ```bash
    npm install
@@ -28,7 +19,21 @@
    npm run start
    ```
 #### Note
- - Database alreay setup on supabase
+ - Database already setup on supabase
+ - you will need to create a .env file with the following
+DATABASE_URL=
+DB_HOST_SUPABASS=
+DB_USER_SUPABASS=
+DB_PASSWORD_SUPABASS=
+DB_NAME_SUPABASS=
+DB_PORT_SUPABASS=
+GROQ_API_KEY=
+   - *enquire with us if you want to run on you machine first because you will need our db hosting key*
+
+3. go to localhost:(portnumber) in web browser
+
+
+
 
 
 ### Current application process
