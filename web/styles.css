@@ -338,7 +338,7 @@ a:hover {
   border-radius: 6px;
   cursor: pointer;
   padding:10px;
-  width: 100000000px;
+  width: fit-content;
   white-space: nowrap;
 }
 .category-item:hover{
