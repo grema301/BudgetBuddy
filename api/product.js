@@ -10,9 +10,7 @@ router.get("/", async (req, res) => {
 
 router.get("/categories", async (req, res) => {
     const data = await getAllCategories();
-    console.log(data);
     if (!data) return res.status(404).json({ error: "Not found" });
-    console.log(data);
     res.json(data);
 });
 

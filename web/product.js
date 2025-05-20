@@ -63,9 +63,10 @@ function displayProduct(product) {
 
     let priceDisplay = Object.entries(prices).map(([store, storeData]) => {
         let numericPrice = parseFloat(storeData.price);
+        console.log("Store data:", storeData.name);
         if (!filteredPrices.includes(numericPrice)) return "";
         return `<div class="price ${numericPrice === lowestPrice ? "lowest" : ""}">
-                    <span href="${storeData.link}" target="_blank">${store}: $${numericPrice.toFixed(2)}</span>
+                    <span href="${storeData.link}" target="_blank">${storeData.name}: $${numericPrice.toFixed(2)}</span>
                 </div>`;
     }).join("");
 
@@ -147,11 +148,18 @@ function renderCart() {
 // Toggle cart
 document.getElementById('cart-toggle').onclick = () => {
   document.getElementById('cart').classList.toggle('open');
+  if (document.getElementById('cart').classList.contains('open')) document.getElementById('cart-close').style.display = "block";
+  else document.getElementById('cart-close').style.display = "none";
 };
 
 // On page load
 window.addEventListener('DOMContentLoaded', () => {
   renderCart();
+
+  document.getElementById('cart-close').addEventListener("click", () => {
+    document.getElementById('cart').classList.remove('open');
+    document.getElementById('cart-close').style.display = "none";
+  });
 });
 
 // Send cart to server to get AI suggestions
