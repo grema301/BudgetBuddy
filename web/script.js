@@ -1,3 +1,4 @@
+let allProductPrices = {};
 
 document.getElementById('clearSearch').addEventListener('click', () => {
     document.getElementById('searchInput').value = '';
@@ -170,6 +171,9 @@ function displayProducts(data) {
         updateCartCountDisplay(name);
         productGrid.appendChild(productCard);
     });
+    Object.entries(grouped).forEach(([id, product]) => {
+  allProductPrices[product.name] = product.prices;
+});
 }
 
 
@@ -247,16 +251,28 @@ function renderCart() {
   const cartTotals = document.getElementById('cart-totals');
   cartItems.innerHTML = '';
 
+  let storeTotals = {}; // { Countdown: 20.50, New World: 19.70, ... }
+
+  // Render cart item list (name, quantity, remove button)
   cart.forEach(item => {
+    const { name, quantity } = item;
     const div = document.createElement('div');
     div.className = 'cart-item';
     div.innerHTML = `
-      <span>${item.name}</span>
-      <input type="number" value="${item.quantity}" onchange="updateQuantity('${item.name}', this.value)" />
-      <button onclick="removeFromCart('${item.name}')">✕</button>
+      <span>${name}</span>
+      <input type="number" value="${quantity}" onchange="updateQuantity('${name}', this.value)" />
+      <button onclick="removeFromCart('${name}')">✕</button>
     `;
-    updateCartCountDisplay(item.name);
+    updateCartCountDisplay(name);
     cartItems.appendChild(div);
+
+    // Tally prices per store
+    const prices = allProductPrices[name];
+    if (prices) {
+      for (const [store, { price }] of Object.entries(prices)) {
+        storeTotals[store] = (storeTotals[store] || 0) + price * quantity;
+      }
+    }
   });
 
   if (cart.length === 0) {
@@ -264,21 +280,17 @@ function renderCart() {
     return;
   }
 
-  // Fetch total prices
-  fetch('/cart/prices', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ items: cart })
-  })
-  .then(res => res.json())
-  .then(totals => {
-    const minPrice = Math.min(...Object.values(totals));
-    cartTotals.innerHTML = Object.entries(totals).map(([store, total]) => {
-      const className = total === minPrice ? 'cheapest' : '';
-      return `<div class="${className}">${store}: $${total.toFixed(2)}</div>`;
-    }).join('');
-  });
+  // Find cheapest total
+  const minTotal = Math.min(...Object.values(storeTotals));
+
+  // Display totals per store
+  cartTotals.innerHTML = `<h4>Total cost by store:</h4>` + Object.entries(storeTotals).map(([store, total]) => {
+    const className = total === minTotal ? 'cheapest' : '';
+    return `<div class="store-total ${className}">${store}: $${total.toFixed(2)}</div>`;
+  }).join('');
 }
+
+
 
 // Toggle cart
 document.getElementById('cart-toggle').onclick = () => {
